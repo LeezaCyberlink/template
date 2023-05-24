@@ -1,11 +1,17 @@
 /* general */
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
 @font-face {
   font-family: AvertaDemo-Regular;
   src: url(../fonts/AvertaDemo-Regular.otf);
 }
-/* banner */
+:root {
+    --light-blue: #5BC2E7;
+    --dark-blue: #0057B7;
+  }
+/* font */
 .primary-font{
     color: #222;
     font-family: "Ubuntu", sans-serif;
@@ -13,39 +19,52 @@
     font-weight: 700;
     line-height: 1.2;
 }
+.small-primary-font{
+    color: #222;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size:24px;
+}
 .secondary-font{
     font-family: AvertaDemo-Regular;
     font-size: 20px;
 }
 .para-font{
-    
-}
-.banner-button,.banner-button1{
-    color: #fff;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
     font-weight: 400;
+}
+/* button */
+.banner-button,.banner-button1{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #fff;
     display: inline-block;
     padding: 12px 30px !important;
     transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     margin-right: 10px;
+   
 }
 .banner-button{
-    background: #0057B7;
+    background: var(--dark-blue);
 }
 .banner-button:hover{
-    background: #5BC2E7;
+    background: var(--light-blue);
     color: #fff;
+    text-decoration: none;
 }
 .banner-button1{
-    background: #5BC2E7;
+    background: var(--light-blue);
 }
 .banner-button1:hover{
-    background: #0057B7;
+    background: var(--dark-blue);
     color: #fff;
+    text-decoration: none;
 }
-.single-feature {
+/* .single-feature {
         background: #f9f9fd;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
@@ -62,5 +81,21 @@
     -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-}
+} */
 
+.top-icon-section{
+    width: 120px;
+    height: 120px;
+    background-color: var(--dark-blue);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -50px;
+}
+.text-section{
+    border:1px solid var(--dark-blue);
+    text-align: center;
+}
