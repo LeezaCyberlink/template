@@ -129,20 +129,28 @@
           <h1 class="primary-font uk-margin-remove">The South City Hospital</h1>
           <hr>
           <p class="para-font">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, accusantium illum? Laudantium ad maxime sed, delectus debitis doloribus similique libero dicta voluptates blanditiis in consequatur quod inventore sint nesciunt. A?</p>
-          <div class="uk-grid-small uk-child-width-expand@s uk-text-center" uk-grid>
+          <div class="uk-grid-small uk-child-width-expand@s " uk-grid>
             <div>
-                <div class="uk-card uk-card-default uk-card-body uk-padding-small ">Top professional Team</div>
+                <div class="uk-card uk-card-default uk-card-body uk-padding-small para-font"><img src="assets/img/icons/support.png" alt=""> Top professional Team</div>
             </div>
             <div>
-                <div class="uk-card uk-card-default uk-card-body uk-padding-small">Multi Functional Hospital</div>
+                <div class="uk-card uk-card-default uk-card-body uk-padding-small para-font"><img src="assets/img/icons/gears.png" alt=""> Multipourpose Hospital</div>
             </div>
           </div>
           <div class="uk-grid-small uk-child-width-expand@s uk-text-center" uk-grid>
             <div>
-                <div class="uk-card uk-card-default uk-card-body uk-padding-small">Top professional Team</div>
+                <div class="uk-card uk-card-default uk-card-body uk-padding-small para-font">20+ experience</div>
             </div> 
             <div>
-                <div class="uk-card uk-card-default uk-card-body uk-padding-small">Top professional Team</div>
+                <div class="uk-card uk-card-default uk-card-body uk-padding-small para-font">Top professional Specialist</div>
+            </div>
+          </div>
+          <div class="uk-grid-small uk-child-width-expand@s uk-text-center" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body uk-padding-small para-font">Dicount in treatment Fees</div>
+            </div> 
+            <div>
+                <div class="uk-card uk-card-default uk-card-body uk-padding-small para-font">Top professional Team</div>
             </div>
           </div>
           
