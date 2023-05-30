@@ -1,21 +1,32 @@
 /* general */
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
 
 @font-face {
   font-family: AvertaDemo-Regular;
   src: url(../fonts/AvertaDemo-Regular.otf);
 }
 :root {
-    --light-blue: #5BC2E7;
-    --dark-blue: #0057B7;
+    --light-blue: #48baf1;
+    --dark-blue: #14457b;
+    
+  }
+.uk-section-padding{
+    padding: 100px 70px;
   }
 /* font */
 .primary-font{
     color: #222;
     font-family: "Ubuntu", sans-serif;
     font-size: 45px !important;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.white-primary-font{
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 35px !important;
     font-weight: 700;
     line-height: 1.2;
 }
@@ -28,12 +39,26 @@
 }
 .secondary-font{
     font-family: AvertaDemo-Regular;
-    font-size: 20px;
+    font-size: 22px;
+}
+.blue-secondary-font{
+    font-family: AvertaDemo-Regular;
+    font-size: 22px;
+    color: var(--light-blue);
+    font-weight: 700;
 }
 .para-font{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
     font-weight: 400;
+    line-height: 1.6;
+}
+.services-font{
+    color: var(--dark-blue) !important;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size:24px;
 }
 /* button */
 .banner-button,.banner-button1{
@@ -64,6 +89,39 @@
     color: #fff;
     text-decoration: none;
 }
+td{
+    padding: 10px 0;
+}
+.emergency-btn{
+    background-color: transparent;
+    border-radius: 18px ;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 15px;
+}
+.services-btn{
+    background-color: var(--dark-blue);;
+    padding: 10px 20px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+.services-btn1{
+    color: var(--dark-blue);;
+    background: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    border: none;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    padding: 0;
+}
+
 /* .single-feature {
         background: #f9f9fd;
         -webkit-border-radius: 5px;
@@ -99,3 +157,13 @@
     border:1px solid var(--dark-blue);
     text-align: center;
 }
+.services-body{
+    padding: 28px 35px !important;
+}
+.left-arrow ,.right-arrow{
+    background-color:var(--light-blue) !important;
+    border-radius: 50% !important;
+    padding: 10px 15px !important;
+}
+
+

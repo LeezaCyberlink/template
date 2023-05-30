@@ -35,100 +35,82 @@
         <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-icon="icon: chevron-right;ratio: 3" uk-slideshow-item="next"></a>
       </div>
   </div>
-</div>
 <!-- End banner -->
-
-<!-- <section class="three-container-section">
-    <div class="uk-container uk-margin-y">
-      <div class="uk-child-width-expand@s uk-text-center" uk-grid>
-        <div>
-            <div class="single-feature uk-padding">
-              <img src="assets/img/icons/stethoscope.png" alt="">
-              <p class="uk-text-bold">Find a Doctor</p>
-              <p>Choose by name, specialty and more.</p>
-            </div>
-        </div>
-        <div>
-        <div class="single-feature uk-padding">
-              <img src="assets/img/icons/phone.png" alt="">
-              <p class="uk-text-bold ">Send an inquiry</p>
-              <p>Choose by name, specialty and more.</p>
-            </div>
-        </div>
-        <div>
-        <div class="single-feature uk-padding">
-              <img src="assets/img/icons/calendar.png" alt="">
-              <p class="uk-text-bold">Send an inquiry</p>
-              <p>Choose by name, specialty and more.</p>
-            </div>
-        </div>
-        </div>
-        
-      </div>
-    </div>
-</section> -->
 <!-- Emergency section -->
-<section class="emergency-section">
-   <div class="uk-container uk-padding-large" >
-      <ul class="uk-grid-collapse uk-child-width-expand@m" uk-grid>
-        <li style="margin:0 10px ;">
-          <div class="top-icon-section">
-            <img src="assets/img/icons/facility.png" alt="" height="80px;" width="80px;">
-          </div>
-          <div class="text-section uk-padding">
-          <p class="uk-margin-top">
-              <h1 class="small-primary-font">Endocrinology</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quas ipsa </p>
-          </p>
-          </div>
+<section class="emergency-section uk-section uk-padding-remove-top">
+   <div class="uk-container" >
+      <ul class="uk-grid-collapse uk-child-width-expand@m uk-padding-small uk-padding-remove-top" uk-grid>
+        <li style="background-color: var(--dark-blue);">
+            <div class="uk-flex uk-padding ">
+                <div><img src="assets/img/icons/ambulance.png" alt="" height="150px;" width="150px;"></div>
+                <div class="uk-margin-left ">
+                    <h3 class="small-primary-font" style="color:white;">Emergency Cases</h3>
+                    <p class="para-font" style="color:white;">Please feel free to contact our friendly reception staff with any general or medical inquiry.</p>
+                    <p class="uk-margin-medium-top"><img src="assets/img/icons/phone (2).png" alt="" > <span class="uk-margin-small-left uk-text-bold uk-text-large uk-text-middle" style="color:white;"  >0178259767</span>  </p>
+                </div>
+            </div>
+
         </li>
 
-        <li style="margin:0 10px ;">
-          <div class="top-icon-section">
-            <img src="assets/img/icons/facility.png" alt="" height="80px;" width="80px;">
-          </div>
-          <div class="text-section uk-padding">
-          <p class="uk-margin-top">
-              <h1 class="small-primary-font">Endocrinology</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quas ipsa </p>
-          </p>
-          </div>
+        <li style="background-color: var(--light-blue);">
+            <div class="uk-flex uk-padding">
+                <div><img src="assets/img/icons/timetable.png" alt="" height="150px;" width="150px;"></div>
+                <div class="uk-margin-left ">
+                    <h3 class="small-primary-font" style="color:white;">Doctor Timetable</h3>
+                    <p class="para-font" style="color:white;">Please feel free to contact our friendly reception staff with any general or medical inquiry.</p>
+                    <button class="emergency-btn para-font uk-margin-small-top">View all doctors timetable</button>
+                </div>
+            </div>
+            
         </li>
 
-        <li style="margin:0 10px ;">
-          <div class="top-icon-section">
-            <img src="assets/img/icons/facility.png" alt="" height="80px;" width="80px;">
-          </div>
-          <div class="text-section uk-padding">
-          <p class="uk-margin-top">
-              <h1 class="small-primary-font">Endocrinology</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quas ipsa </p>
-          </p>
-          </div>
+        <li style="background-color: var(--dark-blue);">
+            <div class="uk-flex uk-padding">
+                <div><img src="assets/img/icons/ambulance.png" alt="" height="70px;" width="70px;" ></div>
+                <div class="uk-margin-left">
+                        <h3 class="small-primary-font" style="color:white;">Opening Hours</h3>
+                            <table class="para-font" style="color:white; border-collapse: collapse;"   >
+                                <tr style="border-bottom:1px solid white;">
+                                    <td>Sunday</td>
+                                    <td>8:00am-10:00am</td>
+                                </tr>    
+                                <tr style="border-bottom:1px solid white;">
+                                    <td>Monday</td>
+                                    <td>8:00am-10:00am</td>
+                                </tr>
+                                <tr style="border-bottom:1px solid white;">
+                                    <td>Tuesday</td>
+                                    <td>8:00am-10:00am</td>
+                                </tr>
+                            </table>
+                    </div>
+            </div>
+            
         </li>
        
       </ul>
    </div>
 </section>
 <!-- End Emergency section -->
-
 <!-- About us Section -->
-<section class="about-section">
-  <div  class="uk-section  uk-section-primary" style="background-image: url(assets/img/bg1.jpg); background-size:cover;   background-attachment: fixed;">
-    <div class="uk-container">
-      <div class="uk-child-width-1-2@l uk-grid-match uk-grid" data-uk-grid="">
-        <div class="">
+<section class="about-section uk-section">
+<div class="uk-container" >
+      <ul class="uk-grid-collapse uk-child-width-expand@m" uk-grid>
+        <li >
+        <div class=" uk-padding-small">
             <div class="uk-height-1-1 uk-background-center-center uk-background-cover uk-background-norepeat uk-background-blend-overlay 
               uk-overlay-retreat" style="background-image: url();">
               <img class="uk-box-shadow-large" src="https://thumbs.dreamstime.com/b/building-blue-letter-h-sign-hospital-large-modern-184908229.jpg" alt="About Us" style="height:500px; object-fit:cover;">
             </div>
         </div> 
-        <div class="uk-first-column ">
-          <div class=" uk-flex uk-flex-column">
-            <h1 class="secondary-font uk-margin-remove-bottom">About Hospital</h1>
+        </li>
+
+        <li>
+        <div class=" uk-flex uk-flex-column uk-padding-small">
+            <h1 class="blue-secondary-font uk-margin-remove-bottom">About Hospital</h1>
             <h1 class="primary-font uk-margin-remove">The South City Hospital</h1>
             <hr>
-            <p class="para-font" style="color:white;">Chhatrapati Free Hospital strives to change the current medical climate in Kathmandu by educating school children on health and sanitation issues. We have pioneered health care for the poor and we have expanded to become a 25 bed hospital. We are registered with the Government of Nepal and are also affiliated with Social Welfare Council.</p>
+            <p class="para-font">Chhatrapati Free Hospital strives to change the current medical climate in Kathmandu by educating school children on health and sanitation issues. We have pioneered health care for the poor and we have expanded to become a 25 bed hospital.</p>
               <div class="uk-grid-small uk-child-width-expand@s " uk-grid>
                 <div>
                     <div class="uk-card uk-card-default uk-card-body uk-padding-small para-font" ><img src="assets/img/icons/support.png" alt="" class="uk-margin-small-right"> Top professional Team</div>
@@ -154,17 +136,18 @@
                 </div>
               </div>
           </div>
-        </div> 
-        
-      </div>
+        </li>
+
+       
+       
+      </ul>
+   </div>
     </div>
-  </div>
 </section>
 <!-- End About Us section -->
-
 <!-- Services section -->
-<section class="service-section">
-  <div class="uk-container uk-padding-large">
+<section class="service-section uk-section">
+  <div class="uk-container">
     <div class="uk-text-center uk-margin-large-bottom">
       <h1 class="blue-secondary-font uk-margin-remove-bottom">Our Services</h1>
       <h1 class="primary-font uk-margin-small">Think Hard & Focus on The <br> Patient's Wellbeing</h1>
@@ -273,87 +256,76 @@
   </div>
 </section>
 <!-- End services section -->
+<section class="uk-section department-section" style=" background-image: url(assets/img/bg1.jpg); background-size:cover;background-attachment: fixed;">
+    <div class="uk-container">
+      <ul class="uk-grid-collapse uk-child-width-1-2@m" uk-grid>
+        <li>
+          <div class=" uk-margin-large-bottom uk-padding-small">
+            <h1 class="blue-secondary-font uk-margin-remove-bottom">Our Department</h1>
+            <h1 class="white-primary-font uk-margin-small">Think Hard & Focus on The <br> Patient's Wellbeing</h1>
+        
+              <p class="para-font" style="color:white;">Chhatrapati Free Hospital strives to change the current medical climate in Kathmandu by educating school children on health and sanitation issues. We have pioneered health care for the poor and we have expanded to become a 25 bed hospital.</p>
+              <a href="about.php" class="banner-button1">Learn More</a>
+          </div>
+        </li>
+        <li>
+          <div class="uk-position-relative uk-padding-small uk-visible-toggle uk-light " tabindex="-1" uk-slider="clsActivated: uk-transition-active; center: true">
 
-<section class="department-section" style=" background-image: url(assets/img/bg1.jpg); background-size:cover;background-attachment: fixed;">
-  <div class="uk-container">
-    <div class="uk-slider-container-offset" uk-slider>
-      <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+              <ul class="uk-slider-items uk-grid">
+                  <li class="uk-width-2-4">
+                      <div class="uk-panel">
+                          <img src="assets/img/service1.jpg" width="1800" height="" alt="">
+                          <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                              <h3 class="uk-margin-remove">Bottom</h3>
+                              <p class="uk-margin-remove">Chhatrapati Free Hospital strives to change the current medical climate in Kathmandu by educating school children on health and sanitation issues. We have pioneered health care for the poor and we have expanded to become a 25 bed hospital.</p>
+                          </div>
+                      </div>
+                  </li>
+                  <li class="uk-width-2-4">
+                      <div class="uk-panel">
+                          <img src="assets/img/service2.jpg" width="1800" height="1200" alt="">
+                          <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                              <h3 class="uk-margin-remove">Bottom</h3>
+                              <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                          </div>
+                      </div>
+                  </li>
+                  <li class="uk-width-2-4">
+                      <div class="uk-panel">
+                          <img src="assets/img/service3.jpg" width="1800" height="1200" alt="">
+                          <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                              <h3 class="uk-margin-remove">Bottom</h3>
+                              <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                          </div>
+                      </div>
+                  </li>
+                  <li class="uk-width-2-4">
+                      <div class="uk-panel">
+                          <img src="assets/img/service2.jpg" width="1800" height="1200" alt="">
+                          <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                              <h3 class="uk-margin-remove">Bottom</h3>
+                              <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                          </div>
+                      </div>
+                  </li>
+                  <li class="uk-width-2-4">
+                      <div class="uk-panel">
+                          <img src="assets/img/service3.jpg" width="1800" height="1200" alt="">
+                          <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                              <h3 class="uk-margin-remove">Bottom</h3>
+                              <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                          </div>
+                      </div>
+                  </li>
+              </ul>
 
-          <ul class="uk-slider-items  uk-grid">
-              <li>
-                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-                  <div class="uk-card-media-left uk-cover-container">
-                      <img src="images/light.jpg" alt="" uk-cover>
-                      <canvas width="600" height="400"></canvas>
-                  </div>
-                  <div>
-                      <div class="uk-card-body">
-                          <h3 class="uk-card-title">Media Left</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                      </div>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-                  <div class="uk-card-media-left uk-cover-container">
-                      <img src="images/light.jpg" alt="" uk-cover>
-                      <canvas width="600" height="400"></canvas>
-                  </div>
-                  <div>
-                      <div class="uk-card-body">
-                          <h3 class="uk-card-title">Media Left</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                      </div>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-                  <div class="uk-card-media-left uk-cover-container">
-                      <img src="images/light.jpg" alt="" uk-cover>
-                      <canvas width="600" height="400"></canvas>
-                  </div>
-                  <div>
-                      <div class="uk-card-body">
-                          <h3 class="uk-card-title">Media Left</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                      </div>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-                  <div class="uk-card-media-left uk-cover-container">
-                      <img src="images/light.jpg" alt="" uk-cover>
-                      <canvas width="600" height="400"></canvas>
-                  </div>
-                  <div>
-                      <div class="uk-card-body">
-                          <h3 class="uk-card-title">Media Left</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                      </div>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-                  <div class="uk-card-media-left uk-cover-container">
-                      <img src="images/light.jpg" alt="" uk-cover>
-                      <canvas width="600" height="400"></canvas>
-                  </div>
-                  <div>
-                      <div class="uk-card-body">
-                          <h3 class="uk-card-title">Media Left</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                      </div>
-                  </div>
-                </div>
-              </li>
-          </ul>
-      </div>
-      <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+              <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+              <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+          </div>
+        </li>
+      </ul>
     </div>
-  </div>
 </section>
+
 <?php include('assets/include/footer.php');?>
