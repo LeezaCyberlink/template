@@ -166,4 +166,11 @@ td{
     padding: 10px 15px !important;
 }
 
+.uk-team-member{
+    border-radius:15px;
+}
+.uk-team-member img{
+    border-top-right-radius:15px;
+    border-top-left-radius:15px;
+}
 

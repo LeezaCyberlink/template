@@ -94,55 +94,52 @@
 <!-- End Emergency section -->
 <!-- About us Section -->
 <section class="about-section uk-section">
-<div class="uk-container" >
+    <div class="uk-container" >
       <ul class="uk-grid-collapse uk-child-width-expand@m" uk-grid>
         <li >
-        <div class=" uk-padding-small">
-            <div class="uk-height-1-1 uk-background-center-center uk-background-cover uk-background-norepeat uk-background-blend-overlay 
-              uk-overlay-retreat" style="background-image: url();">
-              <img class="uk-box-shadow-large" src="https://thumbs.dreamstime.com/b/building-blue-letter-h-sign-hospital-large-modern-184908229.jpg" alt="About Us" style="height:500px; object-fit:cover;">
-            </div>
-        </div> 
+            <div class=" uk-padding-small">
+                <div class="uk-height-1-1 uk-background-center-center uk-background-cover uk-background-norepeat uk-background-blend-overlay 
+                uk-overlay-retreat" style="background-image: url();">
+                <img class="uk-box-shadow-large" src="https://thumbs.dreamstime.com/b/building-blue-letter-h-sign-hospital-large-modern-184908229.jpg" alt="About Us" style="height:500px; object-fit:cover;">
+                </div>
+            </div> 
         </li>
 
         <li>
-        <div class=" uk-flex uk-flex-column uk-padding-small">
-            <h1 class="blue-secondary-font uk-margin-remove-bottom">About Hospital</h1>
-            <h1 class="primary-font uk-margin-remove">The South City Hospital</h1>
-            <hr>
-            <p class="para-font">Chhatrapati Free Hospital strives to change the current medical climate in Kathmandu by educating school children on health and sanitation issues. We have pioneered health care for the poor and we have expanded to become a 25 bed hospital.</p>
-              <div class="uk-grid-small uk-child-width-expand@s " uk-grid>
-                <div>
-                    <div class="uk-card uk-card-default uk-card-body uk-padding-small para-font" ><img src="assets/img/icons/support.png" alt="" class="uk-margin-small-right"> Top professional Team</div>
+            <div class=" uk-flex uk-flex-column uk-padding-small">
+                <h1 class="blue-secondary-font uk-margin-remove-bottom">About Hospital</h1>
+                <h1 class="primary-font uk-margin-remove">The South City Hospital</h1>
+                <hr>
+                <p class="para-font">Chhatrapati Free Hospital strives to change the current medical climate in Kathmandu by educating school children on health and sanitation issues. We have pioneered health care for the poor and we have expanded to become a 25 bed hospital.</p>
+                <div class="uk-grid-small uk-child-width-expand@s " uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body uk-padding-small para-font" ><img src="assets/img/icons/support.png" alt="" class="uk-margin-small-right"> Top professional Team</div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body uk-padding-small para-font"><img src="assets/img/icons/gears.png" alt="" class="uk-margin-small-right"> Multipurpose Hospital</div>
+                    </div>
                 </div>
-                <div>
-                    <div class="uk-card uk-card-default uk-card-body uk-padding-small para-font"><img src="assets/img/icons/gears.png" alt="" class="uk-margin-small-right"> Multipurpose Hospital</div>
+                <div class="uk-grid-small uk-child-width-expand@s " uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body uk-padding-small para-font"><img src="assets/img/icons/rate.png" alt="" class="uk-margin-small-right"> 20+ years experience</div>
+                    </div> 
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body uk-padding-small para-font"><img src="assets/img/icons/medical-team.png" alt="" class="uk-margin-small-right"> Top Specialist Doctor</div>
+                    </div> 
                 </div>
-              </div>
-              <div class="uk-grid-small uk-child-width-expand@s " uk-grid>
-                <div>
-                    <div class="uk-card uk-card-default uk-card-body uk-padding-small para-font"><img src="assets/img/icons/rate.png" alt="" class="uk-margin-small-right"> 20+ years experience</div>
-                </div> 
-                <div>
-                    <div class="uk-card uk-card-default uk-card-body uk-padding-small para-font"><img src="assets/img/icons/medical-team.png" alt="" class="uk-margin-small-right"> Top Specialist Doctor</div>
-                </div> 
-              </div>
-              <div class="uk-grid-small uk-child-width-expand@s " uk-grid>
-                <div>
-                    <div class="uk-card uk-card-default uk-card-body uk-padding-small para-font"><img src="assets/img/icons/discount.png" alt="" class="uk-margin-small-right"> Discount in treatment</div>
-                </div> 
-                <div>
-                    <div class="uk-card uk-card-default uk-card-body uk-padding-small para-font"><img src="assets/img/icons/team.png" alt="" class="uk-margin-small-right"> Top professional Team</div>
+                <div class="uk-grid-small uk-child-width-expand@s " uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body uk-padding-small para-font"><img src="assets/img/icons/discount.png" alt="" class="uk-margin-small-right"> Discount in treatment</div>
+                    </div> 
+                    <div>
+                        <div class="uk-card uk-card-default uk-card-body uk-padding-small para-font"><img src="assets/img/icons/team.png" alt="" class="uk-margin-small-right"> Top professional Team</div>
+                    </div>
                 </div>
-              </div>
-          </div>
+            </div>
         </li>
-
-       
-       
       </ul>
    </div>
-    </div>
+    
 </section>
 <!-- End About Us section -->
 <!-- Services section -->
@@ -260,7 +257,7 @@
     <div class="uk-container">
       <ul class="uk-grid-collapse uk-child-width-1-2@m" uk-grid>
         <li>
-          <div class=" uk-margin-large-bottom uk-padding-small">
+          <div class="  uk-padding-small">
             <h1 class="blue-secondary-font uk-margin-remove-bottom">Our Department</h1>
             <h1 class="white-primary-font uk-margin-small">Think Hard & Focus on The <br> Patient's Wellbeing</h1>
         
@@ -269,62 +266,145 @@
           </div>
         </li>
         <li>
-          <div class="uk-position-relative uk-padding-small uk-visible-toggle uk-light " tabindex="-1" uk-slider="clsActivated: uk-transition-active; center: true">
+            <div class="uk-padding-small">
+                <div class="uk-position-relative uk-visible-toggle uk-light " tabindex="-1" uk-slider="clsActivated: uk-transition-active; center: true">
 
-              <ul class="uk-slider-items uk-grid">
-                  <li class="uk-width-2-4">
-                      <div class="uk-panel">
-                          <img src="assets/img/service1.jpg" width="1800" height="" alt="">
-                          <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
-                              <h3 class="uk-margin-remove">Bottom</h3>
-                              <p class="uk-margin-remove">Chhatrapati Free Hospital strives to change the current medical climate in Kathmandu by educating school children on health and sanitation issues. We have pioneered health care for the poor and we have expanded to become a 25 bed hospital.</p>
-                          </div>
-                      </div>
-                  </li>
-                  <li class="uk-width-2-4">
-                      <div class="uk-panel">
-                          <img src="assets/img/service2.jpg" width="1800" height="1200" alt="">
-                          <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
-                              <h3 class="uk-margin-remove">Bottom</h3>
-                              <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                          </div>
-                      </div>
-                  </li>
-                  <li class="uk-width-2-4">
-                      <div class="uk-panel">
-                          <img src="assets/img/service3.jpg" width="1800" height="1200" alt="">
-                          <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
-                              <h3 class="uk-margin-remove">Bottom</h3>
-                              <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                          </div>
-                      </div>
-                  </li>
-                  <li class="uk-width-2-4">
-                      <div class="uk-panel">
-                          <img src="assets/img/service2.jpg" width="1800" height="1200" alt="">
-                          <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
-                              <h3 class="uk-margin-remove">Bottom</h3>
-                              <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                          </div>
-                      </div>
-                  </li>
-                  <li class="uk-width-2-4">
-                      <div class="uk-panel">
-                          <img src="assets/img/service3.jpg" width="1800" height="1200" alt="">
-                          <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
-                              <h3 class="uk-margin-remove">Bottom</h3>
-                              <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                          </div>
-                      </div>
-                  </li>
-              </ul>
+                    <ul class="uk-slider-items uk-child-width-1-1 " style="height:300px;">
+                        <li>
+                            <div class="uk-panel">
+                                <img src="assets/img/service1.jpg" width="1800" height="1200" alt="">
+                                <div class="uk-overlay uk-overlay-primary uk-position-bottom 
+                                  uk-text-center">
+                                    <h3 class="uk-margin-remove secondary-font">Physiotherapy & Rehabilitation</h3>
+                                   
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-panel">
+                                <img src="assets/img/service1.jpg" width="1800" height="1200" alt="">
+                                <div class="uk-overlay uk-overlay-primary uk-position-bottom 
+                                  uk-text-center">
+                                    <h3 class="uk-margin-remove secondary-font">Physiotherapy & Rehabilitation</h3>
+                                   
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-panel">
+                                <img src="assets/img/service1.jpg" width="1800" height="1200" alt="">
+                                <div class="uk-overlay uk-overlay-primary uk-position-bottom 
+                                  uk-text-center">
+                                    <h3 class="uk-margin-remove secondary-font">Physiotherapy & Rehabilitation</h3>
+                                   
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-panel">
+                                <img src="assets/img/service1.jpg" width="1800" height="1200" alt="">
+                                <div class="uk-overlay uk-overlay-primary uk-position-bottom 
+                                  uk-text-center">
+                                    <h3 class="uk-margin-remove secondary-font">Physiotherapy & Rehabilitation</h3>
+                                   
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
 
-              <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-              <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next" ></a>
 
-          </div>
+                </div>
+            </div>
         </li>
+</section >
+<section class="uk-section ">
+    <div class="uk-container">
+    <div class=" uk-margin-large-bottom">
+      <div class="uk-text-center">
+      <h1 class="blue-secondary-font uk-margin-remove-bottom">Our Teams</h1>
+      <h1 class="primary-font uk-margin-small">Meet our Expert Teams & <br>Experienced Team Members</h1>
+      </div>
+      <ul class="uk-grid-collapse  uk-child-width-1-4 uk-child-width-2-4@m uk-child-width-1-4@s uk-margin-large-top" uk-grid>
+        <li>
+            <div class=" uk-padding-small">
+                <div class="uk-card uk-card-default uk-team-member" >
+                    <div class="uk-card-media-top">
+                        <img src="https://trister.com/wp-content/uploads/2022/05/team4.jpg" width="1800" height="1200" alt="">
+                    </div>  
+                    <div class="uk-card-body uk-text-center uk-padding-small" >
+                        <h3 class="services-font uk-margin-remove">Dr Amanda Cyrus</h3>
+                        <p class="para-font uk-margin-remove">Orthoprdic Surgeon</p>
+                        <div>
+                            <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
+                            <a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>
+                            <span uk-icon="icon: check; ratio: 2"></span>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </li>
+        <li>
+            <div class=" uk-padding-small">
+                <div class="uk-card uk-card-default uk-team-member" >
+                    <div class="uk-card-media-top">
+                        <img src="https://trister.com/wp-content/uploads/2022/05/team4.jpg" width="1800" height="1200" alt="">
+                    </div>  
+                    <div class="uk-card-body uk-text-center uk-padding-small" >
+                        <h3 class="services-font uk-margin-remove">Dr Amanda Cyrus</h3>
+                        <p class="para-font uk-margin-remove">Orthoprdic Surgeon</p>
+                        <div>
+                            <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
+                            <a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>
+                            <span uk-icon="icon: check; ratio: 2"></span>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </li>
+        <li>
+            <div class=" uk-padding-small">
+                <div class="uk-card uk-card-default uk-team-member" >
+                    <div class="uk-card-media-top">
+                        <img src="https://trister.com/wp-content/uploads/2022/05/team4.jpg" width="1800" height="1200" alt="">
+                    </div>  
+                    <div class="uk-card-body uk-text-center uk-padding-small" >
+                        <h3 class="services-font uk-margin-remove">Dr Amanda Cyrus</h3>
+                        <p class="para-font uk-margin-remove">Orthoprdic Surgeon</p>
+                        <div>
+                            <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
+                            <a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>
+                            <span uk-icon="icon: check; ratio: 2"></span>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </li>
+        <li>
+            <div class=" uk-padding-small">
+                <div class="uk-card uk-card-default uk-team-member" >
+                    <div class="uk-card-media-top">
+                        <img src="https://trister.com/wp-content/uploads/2022/05/team4.jpg" width="1800" height="1200" alt="">
+                    </div>  
+                    <div class="uk-card-body uk-text-center uk-padding-small" >
+                        <h3 class="services-font uk-margin-remove">Dr Amanda Cyrus</h3>
+                        <p class="para-font uk-margin-remove">Orthoprdic Surgeon</p>
+                        <hr>
+                        <div>
+                            <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
+                            <a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>
+                            <span uk-icon="icon: check; ratio: 2"></span>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </li>
+        
       </ul>
+
+      </div>
+    </div>
     </div>
 </section>
 
