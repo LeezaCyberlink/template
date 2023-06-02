@@ -20,32 +20,19 @@
                         <div class="uk-container">
                             <div uk-navbar>
 
-                                <div class="uk-navbar-left">
+                                <div class="uk-navbar-left uk-margin-small-left">
                                     <button class="uk-navbar-toggle uk-hidden@m" uk-toggle="target: #nav-offcanvas" uk-navbar-toggle-icon></button>
                                     <a class="uk-navbar-item uk-logo uk-margin-large-right" href="index.php">
-                                       <img src="../img/logo.png" alt="">
+                                      LOGO
                                     </a>
                                 </div>
 
-                                <div class="uk-navbar-right uk-visible@m">
+                                <div class="uk-navbar-right uk-visible@m  uk-margin-small-right">
                                     <ul class="uk-navbar-nav">
-                                        <li class="uk-active"><a href="#">Home</a></li>
+                                        <li class="uk-active"><a href="#" class="nav-font">Home</a></li>
+                                        
                                         <li>
-                                        <a href="#">About Us</a>
-                                        <div class="uk-navbar-dropdown">
-                                            <ul class="uk-nav uk-navbar-dropdown-nav">
-                                                <li class="uk-active"><a href="#">Active</a></li>
-                                                <li><a href="#">Item</a></li>
-                                                <li class="uk-nav-header">Header</li>
-                                                <li><a href="#">Item</a></li>
-                                                <li><a href="#">Item</a></li>
-                                                <li class="uk-nav-divider"></li>
-                                                <li><a href="#">Item</a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                        <li>
-                                            <a href="#">Academics</a>
+                                            <a href="#" class="nav-font">Hospital</a>
                                             <div class="uk-navbar-dropdown uk-navbar-dropdown-width-3">
                                                 <div class="uk-drop-grid uk-child-width-1-3" uk-grid>
                                                     <div>
@@ -85,19 +72,19 @@
                                             </div>
                                         </li>
                                         <li>
-                                            <a href="#">Admission</a>
+                                            <a href="#" class="nav-font">Events</a>
                                         </li>
                                         <li>
-                                            <a href="#">Notice</a>
+                                            <a href="#" class="nav-font">Notice</a>
                                         </li>
                                         <li>
-                                            <a href="#">Blog</a>
+                                            <a href="#" class="nav-font">Appointment</a>
                                         </li>
                                         <li>
-                                            <a href="#">Gallery</a>
+                                            <a href="#" class="nav-font">Department</a>
                                         </li>
                                         <li>
-                                            <a href="#">Contact</a>
+                                            <a href="#" class="nav-font">Gallery</a>
                                         </li>
                                         
                                     </ul>

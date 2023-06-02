@@ -7,6 +7,11 @@
   font-family: AvertaDemo-Regular;
   src: url(../fonts/AvertaDemo-Regular.otf);
 }
+a.nav-font{
+    font-family: AvertaDemo-Regular !important;
+    text-transform: none !important;
+
+}
 :root {
     --light-blue: #48baf1;
     --dark-blue: #14457b;
@@ -173,4 +178,24 @@ td{
     border-top-right-radius:15px;
     border-top-left-radius:15px;
 }
+/* Service Section */
+.service-overlay1{
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+.service-overlay{
+    height: 400px;
+    background-color: var(--dark-blue) !important;
+    color: #fff;
+    transition: 1s ease !important;
+}
 
+/* Blog Section */
+.blog-font{
+    font-family: AvertaDemo-Regular;
+    font-size: 20px;
+    font-weight: 800;
+}
+/* footer */
+footer{
+    background-image: url(../img/footer.png);
+}
