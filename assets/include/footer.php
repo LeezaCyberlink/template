@@ -1,82 +1,65 @@
 <footer class="uk-position-relative">
-
-<div class="uk-position-bottom"> 
-		<div class="uk-mobile-menu uk-hidden@m uk-sticky" >
-				<div class="uk-container uk-container-small">
-					<ul class="uk-flex uk-flex-middle uk-flex-center uk-flex-around">
-					<li><a href="booking.php" class="uk-small-menu"><i class="fa fa-calendar" aria-hidden="true"></i> Book Now</a></li>
-					<li><a href="packages.php" class="uk-small-menu"><i class="fa fa-bullhorn" aria-hidden="true"></i> Packages</a></li>
-					<li><a href="packages.php" class="uk-small-menu"><i class="fa fa-download" aria-hidden="true"></i> E-Brochure</a></li>
-					</ul>
-				</div>
-		</div><div class="uk-sticky-placeholder" style="height: 68px; margin: 0px;" hidden=""></div>
-	</div>
-<div class="uk-second-footer uk-padding-large uk-padding-remove-left uk-padding-remove-right  uk-logo-pattern">
-  <div class="uk-container ">
-    <div class="uk-grid-divider uk-child-width-1-4@l uk-child-width-1-2@m uk-child-width-1-1@s" uk-grid>
-      <!--  -->
-      <div>
-        <h3 class="uk-footer-title"> Academic Program</h3>
-        <ul>
-          <li><a href="academic.php">Master in Crisis Management Studies</a></li>
-          <li><a href="academic.php">Master in Counseling Psychhology</a></li>
-          <li><a href="academic.php">Bachelor in Computer Appliccation</a></li>
-        </ul>
+  <div class="uk-footer uk-padding-large uk-padding-remove-left uk-padding-remove-right">
+    <div class="uk-container ">
+      <div class="uk-child-width-1-4@l uk-child-width-1-2@m uk-child-width-1-1@s" uk-grid>
+        <!--  -->
+        <div>
+          <h1 class="uk-bold " style="color:white;">LOGO</h1>
+          <p class="para-font"></p>
+        </div>
+        <!--  -->
+        <!--  -->
+        <div>
+          <h3 class="uk-footer-title">Quick Links</h3>
+          <ul class="footer-list para-font">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Our blog</a></li>
+            <li><a href="#">Our Packages</a></li>
+            <li><a href="#">Our Departments</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="uk-footer-title">Our Department</h3>
+          <ul class="footer-list para-font">
+            <li><a href="#">Cardiolody</a></li>
+            <li><a href="#">Gynaloegy</a></li>
+            <li><a href="#"></a>Neonatology</a></li>
+            <li><a href="#"></a>Paediatrics</a></li>
+            <li><a href="#">Gastroenterology</a></li>
+            <li><a href="#"> Hepatology </a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="uk-footer-title">Have a Question?</h3>
+          <ul class="footer-list para-font">
+            <li><a href="">
+                Lalitpur, Bhaisepati, Nepal.</a></li>
+            <li><a href="">+977 - 01 - 421 7766</a></li>
+            <li><a href="">info@hospital.com</a></li>
+          </ul>
+        </div>
+        <!--  -->
       </div>
-      <!--  -->
-      <!--  -->
-      <div>
-        <h3 class="uk-footer-title">Admission</h3>
-        <ul>
-          <li><a href="procedure.php">Procedure</a></li>
-          <li><a href="fee.php">Fee Structure</a></li>
-          <li><a href="eligibility.php">Eligibility Criteria</a></li>
-          <li><a href="procedure.php">Application Form</a></li>
-        </ul>
-      </div>
-      <!--  -->
-      <!--  -->
-      <div>
-        <h3 class="uk-footer-title">Information</h3>
-        <ul>
-          <li><a href="resources.php">Resource & Services</a></li>
-          <li><a href="resources.php">Academic Calender</a></li>
-          <li><a href="resources.php">Rule and Regulations</a></li>
-          <li><a href="downloads.php">Downloads</a></li>
-        </ul>
-      </div>
-      <!--  -->
-      <!--  -->
-      <div>
-        <h3 class="uk-footer-title">Contact Us</h3>
-        <ul>
-          <li><a href="https://www.google.com/maps?q=Level+2,+133-135+Oxford+St,+Bondi+Junction,+NSW+2022,+Australia&rlz=1C1CHBF_enNP802NP802&um=1&ie=UTF-8&sa=X&ved=0ahUKEwiG06bl8YvjAhVSfysKHZkGB-0Q_AUIECgB" target="_blank"><span uk-icon="icon:  location; ratio: 1" class="uk-margin-small-right"></span>
-              824 Dhumbarahi Marg Kathmandu P.O. Box: 4181</a></li>
-          <li><a href="callto://0433 568 282"><span uk-icon="icon: receiver; ratio: 1" class="uk-margin-small-right"></span>+977-1-4008181</a></li>
-          <li><a href="callto://61 02 80652990"> <span uk-icon="icon:   receiver; ratio: 1" class="uk-margin-small-right"></span>+977-1-4008182</a></li>
-          <li><a href=""> <span uk-icon="icon:   mail; ratio: 1" class="uk-margin-small-right"></span>info@tuicms.edu.np</a></li>
-        </ul>
-      </div>
-      <!--  -->
     </div>
   </div>
-</div>
-<div class="uk-third-footer uk-padding">
-  <div class="uk-container ">
-    <div class="uk-child-width-1-2@l uk-child-width-1-3@m uk-child-width-1-1@s" uk-grid>
-      <!--  -->
-      <div>
-        <p class="uk-margin-remove-top uk-margin-remove-bottom">Copyright &copy; TUICMS.All Rights Reserved.</p>
+  <div class="uk-third-footer uk-padding">
+    <div class="uk-container ">
+      <div class="uk-child-width-1-2@l uk-child-width-1-3@m uk-child-width-1-1@s" uk-grid>
+        <!--  -->
+        <div>
+          <p class="uk-margin-remove-top uk-margin-remove-bottom">Copyright .All Rights Reserved.</p>
+        </div>
+        <!--  -->
+        <!--  -->
+        <div class="uk-text-right">
+          <p class="uk-margin-remove-top uk-margin-remove-bottom">Design and Development by <a href="http://cyberlink.com.np/" target="_blank">Cyberlink</a></p>
+        </div>
+        <!--  -->
       </div>
-      <!--  -->
-      <!--  -->
-      <div class="uk-text-right">
-        <p class="uk-margin-remove-top uk-margin-remove-bottom">Design and Development by <a href="http://cyberlink.com.np/" target="_blank">Cyberlink</a></p>
-      </div>
-      <!--  -->
     </div>
   </div>
-</div>
 </footer>
 <div id="nav-offcanvas" uk-offcanvas="mode: push; overlay: true">
   <div class="uk-offcanvas-bar uk-padding-remove">
@@ -192,11 +175,11 @@
     </nav>
   </div>
 </div>
-<script src="assets/js/jquery-3.4.1.min.js"></script>
-<script src="assets/js/uikit-icons.js"></script>
-<script src="assets/js/uikit-icons.min.js"></script>
-<script src="assets/js/uikit.js"></script>
-<script src="assets/js/uikit.min.js"></script>
+  <script src="assets/js/jquery-3.4.1.min.js"></script>
+  <script src="assets/js/uikit-icons.js"></script>
+  <script src="assets/js/uikit-icons.min.js"></script>
+  <script src="assets/js/uikit.js"></script>
+  <script src="assets/js/uikit.min.js"></script>
 
 </body>
 
