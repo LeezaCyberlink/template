@@ -29,10 +29,10 @@
 
                                 <div class="uk-navbar-right uk-visible@m  ">
                                     <ul class="uk-navbar-nav">
-                                        <li class="uk-active"><a href="#" class="nav-font">Home</a></li>
+                                        <li class="uk-active"><a href="index.php" class="nav-font">Home</a></li>
                                         
                                         <li>
-                                            <a href="#" class="nav-font">About Us</a>
+                                            <a href="about.php" class="nav-font">About Us</a>
                                             <div class="uk-navbar-dropdown uk-navbar-dropdown-width-3">
                                                 <div class="uk-drop-grid uk-child-width-1-3" uk-grid>
                                                     <div>

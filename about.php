@@ -8,26 +8,27 @@
 </section>
 <section class="uk-section about-top-section">
     <div class="uk-container">
-        <ul uk-tab class="uk-flex-center uk-container">
-            <li class="uk-active secondary-font"><a href="#">About Hospital</a></li>
-            <li class="secondary-font"><a href="#hello">Our Approach</a></li>
-            <li class="secondary-font"><a href="#">What We Offer</a></li>
-            <li class="secondary-font"><a href="#">sHow we Work</a></li>
-        </ul>
-        <div id="hello" >
-            <ul class="uk-grid-collapse uk-child-width-expand@m padding-large-top" uk-grid>
-                <li class="uk-padding-small"> <img class="uk-box-shadow-large" src="https://thumbs.dreamstime.com/b/building-blue-letter-h-sign-hospital-large-modern-184908229.jpg" alt="About Us" style="height:500px; object-fit:cover;"></li>
-                <li class="uk-padding-small" style="display:flex; align-items:start;justify-content:center; flex-direction :column;">
-                <h1 class="blue-secondary-font uk-margin-remove-bottom">About Hospital</h1>
-                <h1 class="primary-font uk-margin-remove">The South City Hospital</h1>
-                    <p class="uk-text-bold secondary-font">“Caring for patients is a labor of love and requires a special person”</p>
-                    <p class="para-font">The South City Hospital strives to change the current medical climate in Kathmandu by educating school children on health and sanitation issues. We have pioneered health care for the poor and we have expanded to become a 25 bed hospital. We are registered with the Government of Nepal and are also affiliated with Social Welfare Council of Nepal.We regularly conduct special health camps in both urban poor and rural areas. We try to reach out to people who live without the comforts of basic healthcare and sanitation facilities. To accomplish our ambitious goals, we are dependent upon both public and private support.</p>
-                </li>
+    <ul class="uk-grid-collapse uk-child-width-expand@m padding-large-top" uk-grid uk-height-match="hrllo">
+        <li class="uk-padding-small hrllo"> <img class="uk-box-shadow-large" src="https://thumbs.dreamstime.com/b/building-blue-letter-h-sign-hospital-large-modern-184908229.jpg" alt="About Us" style="height:650pcb c  fbhx; object-fit:cover;"></li>
+        <li class="uk-padding-small hrllo" >
+            <ul class="uk-tab " uk-height-match="target: li>a" uk-tab="">
+                <li class="uk-active"><a href="#" aria-expanded="true">Introduction</a></li>
+                <li class="uk-margin-auto"><a href="#" aria-expanded="false" style="">Mission/Vision</a></li>
+                <li class="uk-margin-auto"><a href="#" aria-expanded="false" style="">Course Brochures</a></li>
             </ul>
-        </div>
+            <ul class="uk-switcher">
+                <li class="uk-active">
+                <h1 class="green-secondary-font uk-margin-remove-bottom uk-margin-top">About Hospital</h1>
+                    <h1 class="section-primary-font uk-margin-remove">Medi Quest Laboratory Clinic</h1>
+                        <p class="para-font uk-text-justify">The concept of Mediquest Lab was envisioned a decade ago to fulfill the gap in molecular and other advanced diagnostic services for cancer patients in the country. The group of pathologists and hematologists urged the desperate need for flow cytometry, polymerized chain reaction (PCR), and cytogenetics services and decided to come up with a state-of-the-art diagnostic pathology center. <br><br>
+                        Over the years, Mediquest Laboratory has scaled new heights and expanded its wing towards general pathology services, again to provide accurate, detailed, and dependable reports for our clients. <br><br>
+                        We take pride in being the first commercial laboratory to pioneer immunohistochemistry (IHC), flow cytometry, polymerized chain reaction (PCR), and cytogenetics tests in the country. <br><br>
+                        At Mediquest Lab, we are determined to provide world-class, error-free pathology services in Nepal.</p>
+                </li>
+        </ul>
     </div>
 </section>
-<section class="uk-section team-section " >
+<!-- <section class="uk-section team-section " >
     <div class="uk-container">
         <div class="uk-text-center uk-margin-large-bottom">
         <h1 class="blue-secondary-font uk-margin-remove-bottom">Team members</h1>
@@ -436,5 +437,6 @@
             <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin uk-hidden"></ul>
         </div>
     </div>
-</section>
+</section> -->
 <?php include('assets/include/footer.php');?>
+    

@@ -8,21 +8,7 @@
   font-family: AvertaDemo-Regular;
   src: url(../fonts/AvertaDemo-Regular.otf);
 }
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: black;
-    opacity: 0.4;
-    z-index: 1;
-    }
-    .uk-main {
-    max-width: 600px;
-    z-index: 5;
-    }
-    
+ 
 a.nav-font{
     font-family: AvertaDemo-Regular !important;
     text-transform: none !important;
@@ -40,35 +26,52 @@ a.nav-font{
     padding: 100px 70px;
   }
 /* font */
-.primary-font{
-  
+/* banner font */
+.banner-primary-font{
     font-family: "Ubuntu", sans-serif;
     font-size: 45px !important;
     font-weight: 700;
     line-height: 1.2;
 }
-.white-primary-font{
-    color: white;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 35px !important;
-    font-weight: 700;
-    line-height: 1.2;
-}
-.small-primary-font{
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 700;
-    line-height: 1.2;
-    font-size:24px;
-}
-.secondary-font{
+.banner-secondary-font{
     font-family: AvertaDemo-Regular;
     font-size: 22px;
     color: white;
 }
-.blue-secondary-font{
+.banner-para-font{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+/* section font */
+.white-small-primary-font{
+    color:white;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 25px !important;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.section-primary-font, .white-section-primary-font{      
+    font-family: "Ubuntu", sans-serif;
+    font-size: 45px !important;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.white-section-primary-font{
+    color: white;
+}
+.white-section-secondary-font{
     font-family: AvertaDemo-Regular;
     font-size: 22px;
-    color: var(--red);
+    color: white;
+}
+.green-secondary-font{
+    font-family: AvertaDemo-Regular;
+    font-size: 22px;
+    color: var(--green);
     font-weight: 700;
 }
 .para-font{
@@ -78,19 +81,19 @@ a.nav-font{
     font-weight: 400;
     line-height: 1.6;
 }
-.services-font{
-    color: var(--dark-blue) !important;
+.service-primary-font{
     font-family: "Ubuntu", sans-serif;
+    font-size: 23px !important;
     font-weight: 700;
     line-height: 1.2;
-    font-size:24px;
+    
+}
+.overlay-para-font{
+    color:white;
 }
 /* button */
 
-.banner{
-    color: white !important ;
-}
-.banner-button,.banner-button1{
+.blue-button,.red-button,.package-btn{
     font-size: 16px;
     font-family: AvertaDemo-Regular;
     font-weight: 400;
@@ -102,25 +105,35 @@ a.nav-font{
     margin-right: 10px;
    
 }
-.banner-button{
+.blue-button{
     background: var(--dark-blue);
 }
-.banner-button:hover{
+.blue-button:hover{
     background: var(--red);
     color: #fff;
     text-decoration: none;
 }
-.banner-button1{
+.red-button{
     background: var(--red);
 }
-.banner-button1:hover{
+.red-button:hover{
     background: var(--dark-blue);
     color: #fff;
+    text-decoration: none;
+}
+.package-btn{
+    background: none;
+    border: 1px solid white;
+}
+.package-btn:hover{
+    background: white;
+    color: black;
     text-decoration: none;
 }
 td{
     padding: 10px 0;
 }
+
 .emergency-btn{
     background-color: transparent;
     border-radius: 18px ;
@@ -169,6 +182,23 @@ td{
     -moz-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 } */
+.banner{
+    color: white;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.4;
+    z-index: 1;
+    }
+.uk-main {
+    max-width: 600px;
+    z-index: 5;
+ }
 
 .top-icon-section{
     width: 120px;
@@ -189,18 +219,19 @@ td{
 .services-body{
     padding: 28px 35px !important;
 }
+
 .left-arrow{
     left: -35px !important;
 }
 .left-arrow ,.right-arrow{
-    background-color:var(--light-blue) !important;
+    background-color:var(--light-green) !important;
     border-radius: 50% !important;
     padding: 10px 15px !important;
     
 }
 /* aboutus */
 .about-section{
-    background:  linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.7987570028011204) 2%, rgba(255,255,255,0.5830707282913166) 93%) ,url(../img/bg-3.jpg); 
+    /* background:  linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.7987570028011204) 2%, rgba(255,255,255,0.5830707282913166) 93%) ,url(../img/bg-3.jpg);  */
     background-size:cover;
    
 }
@@ -218,7 +249,7 @@ td{
 }
 .service-overlay{
     height: 400px;
-    background-color: var(--dark-blue) !important;
+    background-color:  var(--dark-blue)!important;
     color: #fff;
     transition: 1s ease !important;
 }
@@ -262,4 +293,20 @@ footer a:hover{
 }
 .banner-text{
    padding-top: 120px;;
+}
+
+/* About page */
+.tabs{
+    font-family: 'Poppins', sans-serif;
+    color: black !important;
+    font-size: 15px;
+    font-weight: 400;
+}
+.uk-tab>.uk-active>a {
+    background-color: var(--green);
+    padding: 10px 15px;
+    font-family: 'Poppins', sans-serif;
+    color: white !important;
+    font-size: 15px;
+    font-weight: 400;
 }
