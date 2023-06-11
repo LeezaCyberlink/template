@@ -22,7 +22,7 @@
         </div>
         <div>
           <h3 class="uk-footer-title">Our Department</h3>
-          <ul class="footer-list para-font">
+          <u l class="footer-list para-font">
             <li><a href="#">Cardiolody</a></li>
             <li><a href="#">Gynaloegy</a></li>
             <li><a href="#"></a>Neonatology</a></li>
