@@ -79,6 +79,7 @@ a.nav-font{
     color: #606b72;
     font-size: 15px;
     font-weight: 400;
+    text-align: justify;
     line-height: 1.6;
 }
 .service-primary-font{
@@ -236,12 +237,10 @@ td{
    
 }
 /* Team member */
-.uk-team-member{
-    border-radius:15px;
-}
-.uk-team-member img{
-    border-top-right-radius:15px;
-    border-top-left-radius:15px;
+.team-img img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
 }
 /* Service Section */
 .service-overlay1{
