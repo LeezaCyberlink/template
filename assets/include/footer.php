@@ -175,11 +175,6 @@
     </nav>
   </div>
 </div>
-  <script src="assets/js/jquery-3.4.1.min.js"></script>
-  <script src="assets/js/uikit-icons.js"></script>
-  <script src="assets/js/uikit-icons.min.js"></script>
-  <script src="assets/js/uikit.js"></script>
-  <script src="assets/js/uikit.min.js"></script>
 
 </body>
 

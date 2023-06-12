@@ -66,40 +66,130 @@
     </div>
     
 </section>
+<section class="mission-section uk-section uk-padding-top " >
+    <div class="uk-container" >
+      <ul class="uk-grid-collapse uk-child-width-expand@m" uk-grid>
+      <li class="uk-padding-small">
+            <div class=" uk-flex uk-flex-column " >
+                <h1 class="green-secondary-font uk-margin-remove-bottom ">Our Mission</h1>
+                <h1 class="section-primary-font uk-margin-remove ">Medi Quest Laboratory Clinic</h1>
+                <hr>
+                    <div class="uk-margin-small-bottom">
+                        <div class=" uk-padding-small para-font" ><img src="assets/img/icons/support.png" alt="" class="uk-margin-small-right"> Commit to Service Excellence</div>
+                    </div>
+                    <div class="uk-margin-small-bottom">
+                        <div class=" uk-padding-small para-font"><img src="assets/img/icons/gears.png" alt="" class="uk-margin-small-right">Treat each other with Respect & Honesty</div>
+                    </div>
+                    <div class="uk-margin-small-bottom">
+                        <div class=" uk-card-body uk-padding-small para-font"><img src="assets/img/icons/rate.png" alt="" class="uk-margin-small-right"> 20+ years experience</div>
+                    </div> 
+                    <div class="uk-margin-small-bottom">
+                        <div class="uk-card-body uk-padding-small para-font"><img src="assets/img/icons/medical-team.png" alt="" class="uk-margin-small-right"> Top Specialist Doctor</div>
+                    </div> 
+                    <div class="uk-margin-small-bottom">
+                        <div class=" uk-card-body uk-padding-small para-font"><img src="assets/img/icons/discount.png" alt="" class="uk-margin-small-right"> Discount in treatment</div>
+                    </div> 
+                    <div class="uk-margin-small-bottom">
+                        <div class="uk-card-body uk-padding-small para-font"><img src="assets/img/icons/team.png" alt="" class="uk-margin-small-right"> Top professional Team</div>
+                    </div>
+
+            </div>
+            
+        </li>
+        <li class="uk-padding-small">
+            <div>
+                <div class="uk-height-1-1 uk-background-center-center uk-background-cover uk-background-norepeat uk-background-blend-overlay 
+                uk-overlay-retreat" >
+                <img class="uk-box-shadow-large" src="https://thumbs.dreamstime.com/b/building-blue-letter-h-sign-hospital-large-modern-184908229.jpg" alt="About Us" style="height:500px; object-fit:cover;">
+                </div>
+            </div> 
+        </li>
+        
+      </ul>
+   </div>
+    
+</section>
 <section class="uk-section team-section uk-padding-remove-top" >
     <div class="uk-container ">
         <div class="uk-text-center ">
             <h2 class="green-secondary-font uk-margin-remove-bottom ">Team Members</h2>
             <h1 class="section-primary-font uk-margin-remove">Meet our Team Members</h1>
         </div>
-        <ul class="uk-grid-collapse uk-child-width-1-4@s uk-child-width-1-1" uk-grid>
+        <ul class="uk-grid-collapse uk-child-width-1-4@s uk-child-width-1-1 uk-margin-top" uk-grid>
             <li class="uk-padding-small">
-                <div class="team-img ">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2bLci2M7BopkrG-lguOOBCBASxECMpsL-Hg&usqp=CAU" alt="">
+                <div class="team-img uk-transition-toggle uk-inline-clip">
+                    <img src="https://health.templines.info/wp-content/uploads/2017/09/doc1.jpg" alt="">
+                    <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default  uk-text-center team-overlay">
+                        <p class="uk-h4 uk-margin-remove team-icon">
+                            <span uk-icon="icon: facebook"></span>
+                            <span uk-icon="icon: twitter"></span>
+                            <span uk-icon="icon:  linkedin"></span>
+                            <span uk-icon="icon: instagram"></span>
+                        </p>
+                    </div>
                 </div>
-                <div class="team-text">
-                    <h4 class="uk-margin-small-top uk-margin-remove">Dr.Sampurna Tuladhar</h4>
-                    <p class="uk-margin-remove">Pathologists</p>
+                <div class=" uk-margin-top ">
+                    <h4 class="uk-margin-remove-bottom para-font" style="font-size:20px;">Dr.Sampurna Tuladhar</h4>
+                    <p class="uk-margin-remove para-font ">Pathologists</p>
+                   <button class="learn-btn uk-margin-small-top">Learn More <span uk-icon="icon: triangle-right"></span></button> 
                 </div>
             </li>
             <li class="uk-padding-small">
-                <div class="team-img ">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2bLci2M7BopkrG-lguOOBCBASxECMpsL-Hg&usqp=CAU" alt="">
+                <div class="team-img uk-transition-toggle uk-inline-clip">
+                    <img src="https://health.templines.info/wp-content/uploads/2017/09/doc4.jpg" alt="">
+                    <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default  uk-text-center team-overlay">
+                        <p class="uk-h4 uk-margin-remove team-icon">
+                            <span uk-icon="icon: facebook"></span>
+                            <span uk-icon="icon: twitter"></span>
+                            <span uk-icon="icon:  linkedin"></span>
+                            <span uk-icon="icon: instagram"></span>
+                        </p>
+                    </div>
+                </div>
+                <div class=" uk-margin-top ">
+                    <h4 class="uk-margin-remove-bottom para-font" style="font-size:20px;">Dr.Sampurna Tuladhar</h4>
+                    <p class="uk-margin-remove para-font ">Pathologists</p>
+                    <button class="learn-btn uk-margin-small-top">Learn More <span uk-icon="icon: triangle-right"></span></button> 
                 </div>
             </li>
             <li class="uk-padding-small">
-                <div class="team-img ">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2bLci2M7BopkrG-lguOOBCBASxECMpsL-Hg&usqp=CAU" alt="">
+                <div class="team-img uk-transition-toggle uk-inline-clip">
+                    <img src="https://health.templines.info/wp-content/uploads/2017/09/doc2.jpg" alt="">
+                    <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default  uk-text-center team-overlay">
+                        <p class="uk-h4 uk-margin-remove team-icon">
+                            <span uk-icon="icon: facebook"></span>
+                            <span uk-icon="icon: twitter"></span>
+                            <span uk-icon="icon:  linkedin"></span>
+                            <span uk-icon="icon: instagram"></span>
+                        </p>
+                    </div>
+                </div>
+                <div class=" uk-margin-top ">
+                    <h4 class="uk-margin-remove-bottom para-font" style="font-size:20px;">Dr.Sampurna Tuladhar</h4>
+                    <p class="uk-margin-remove para-font ">Pathologists</p>
+                    <button class="learn-btn uk-margin-small-top">Learn More <span uk-icon="icon: triangle-right"></span></button> 
                 </div>
             </li>
             <li class="uk-padding-small">
-                <div class="team-img ">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2bLci2M7BopkrG-lguOOBCBASxECMpsL-Hg&usqp=CAU" alt="">
+                <div class="team-img uk-transition-toggle uk-inline-clip">
+                    <img src="https://health.templines.info/wp-content/uploads/2017/09/doc3.jpg" alt="">
+                    <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default  uk-text-center team-overlay">
+                        <p class="uk-h4 uk-margin-remove team-icon">
+                            <span uk-icon="icon: facebook"></span>
+                            <span uk-icon="icon: twitter"></span>
+                            <span uk-icon="icon:  linkedin"></span>
+                            <span uk-icon="icon: instagram"></span>
+                        </p>
+                    </div>
+                </div>
+                <div class=" uk-margin-top ">
+                    <h4 class="uk-margin-remove-bottom para-font" style="font-size:20px;">Dr.Sampurna Tuladhar</h4>
+                    <p class="uk-margin-remove para-font ">Pathologists</p>
+                    <button class="learn-btn uk-margin-small-top">Learn More <span uk-icon="icon: triangle-right"></span></button> 
                 </div>
             </li>
         </ul>
     </div>
-</section >
-
+</section>
 <?php include('assets/include/footer.php');?>
     

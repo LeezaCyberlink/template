@@ -242,6 +242,25 @@ td{
     width: 100%;
     object-fit: cover;
 }
+.team-overlay{
+    background-color: rgba(0, 0, 0, .7) !important;
+    padding: 5px !important;
+}
+.team-icon span{
+    color: white;
+    height: 18px;
+    width: 18px;
+    margin-right: 10px;
+}
+.learn-btn{
+    background: none !important;
+    border: none !important;
+    padding: 0!important;
+    font-size: 16px;
+    color: var(--green);
+    font-family:  AvertaDemo-Regular;
+    font-weight: 500;
+}
 /* Service Section */
 .service-overlay1{
     background: rgba(0, 0, 0, 0.5) !important;
@@ -317,4 +336,7 @@ footer a:hover{
 }
 .uk-tab::before{
     border-bottom: none !important;
+}
+.mission-section{
+    background-color: #f8f9fb;
 }

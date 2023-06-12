@@ -10,6 +10,9 @@
    <link rel="stylesheet" href="assets/css/uikit-rtl.min.css" />
    <link rel="stylesheet" href="assets/css/uikit.css" />
    <link rel="stylesheet" href="assets/css/uikit.min.css">
+   <script src="assets/js/uikit.min.js"></script>
+      <script src="assets/js/uikit-icons.min.js"></script>
+      <script src="assets/js/jquery-3.4.1.min.js"></script>
 </head>
 
 <body>
