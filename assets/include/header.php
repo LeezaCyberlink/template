@@ -36,46 +36,10 @@
                                         
                                         <li>
                                             <a href="about.php" class="nav-font">About Us</a>
-                                            <div class="uk-navbar-dropdown uk-navbar-dropdown-width-3">
-                                                <div class="uk-drop-grid uk-child-width-1-3" uk-grid>
-                                                    <div>
-                                                        <ul class="uk-nav uk-navbar-dropdown-nav">
-                                                            <li class="uk-active"><a href="#">Active</a></li>
-                                                            <li><a href="#">Item</a></li>
-                                                            <li class="uk-nav-header">Header</li>
-                                                            <li><a href="#">Item</a></li>
-                                                            <li><a href="#">Item</a></li>
-                                                            <li class="uk-nav-divider"></li>
-                                                            <li><a href="#">Item</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div>
-                                                        <ul class="uk-nav uk-navbar-dropdown-nav">
-                                                            <li class="uk-active"><a href="#">Active</a></li>
-                                                            <li><a href="#">Item</a></li>
-                                                            <li class="uk-nav-header">Header</li>
-                                                            <li><a href="#">Item</a></li>
-                                                            <li><a href="#">Item</a></li>
-                                                            <li class="uk-nav-divider"></li>
-                                                            <li><a href="#">Item</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div>
-                                                        <ul class="uk-nav uk-navbar-dropdown-nav">
-                                                            <li class="uk-active"><a href="#">Active</a></li>
-                                                            <li><a href="#">Item</a></li>
-                                                            <li class="uk-nav-header">Header</li>
-                                                            <li><a href="#">Item</a></li>
-                                                            <li><a href="#">Item</a></li>
-                                                            <li class="uk-nav-divider"></li>
-                                                            <li><a href="#">Item</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            
                                         </li>
                                         <li>
-                                            <a href="about.php" class="nav-font">Services</a>
+                                            <a href="speciality.php" class="nav-font">Specialities</a>
                                         </li>
                                         <li>
                                             <a href="#" class="nav-font">Notice</a>

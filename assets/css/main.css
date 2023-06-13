@@ -8,7 +8,10 @@
   font-family: AvertaDemo-Regular;
   src: url(../fonts/AvertaDemo-Regular.otf);
 }
- 
+
+a{
+    text-decoration: none !important;
+}
 a.nav-font{
     font-family: AvertaDemo-Regular !important;
     text-transform: none !important;
@@ -230,37 +233,7 @@ td{
     padding: 10px 15px !important;
     
 }
-/* aboutus */
-.about-section{
-    /* background:  linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.7987570028011204) 2%, rgba(255,255,255,0.5830707282913166) 93%) ,url(../img/bg-3.jpg);  */
-    background-size:cover;
-   
-}
-/* Team member */
-.team-img img{
-    height: 250px;
-    width: 100%;
-    object-fit: cover;
-}
-.team-overlay{
-    background-color: rgba(0, 0, 0, .7) !important;
-    padding: 5px !important;
-}
-.team-icon span{
-    color: white;
-    height: 18px;
-    width: 18px;
-    margin-right: 10px;
-}
-.learn-btn{
-    background: none !important;
-    border: none !important;
-    padding: 0!important;
-    font-size: 16px;
-    color: var(--green);
-    font-family:  AvertaDemo-Regular;
-    font-weight: 500;
-}
+
 /* Service Section */
 .service-overlay1{
     background: rgba(0, 0, 0, 0.5) !important;
@@ -301,42 +274,94 @@ footer a:hover{
 .uk-third-footer{
     background:#2B3B4B;
 }
-/* about us */
-.banner1{
-   background: url(https://www.shutterstock.com/image-photo/healthcare-people-group-professional-doctor-260nw-1213711042.jpg); 
+/************************************** about us page **********************************************/
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 57vh;
+    background: black;
+    opacity: 0.4;
+    z-index: 1;
+    }
+
+.about-us-banner{
+   background: url(https://www.gep.com/prod/s3fs-public/styles/blog_hero_banner/public/blog-images/digitization-makes-inroads-into-laboratory-operations-management.jpg.webp?itok=YJA4fpP1); 
    height: 57vh;
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
+   background-attachment: fixed;
 }
 .banner-text{
-   padding-top: 120px;;
+  padding-top: 120px;
+  text-align: center;
+  z-index: 5 ;
+ 
 }
-
-/* About page */
-.tabs{
-    font-family: 'Poppins', sans-serif;
-    color: black !important;
-    font-size: 15px;
-    font-weight: 800 !important;
-}
-.uk-tab>.uk-active>a {
-    background-color: var(--green);
-    font-family: 'Poppins', sans-serif;
-    color: white !important;
-    font-size: 15px;
-    font-weight: 400;
-    border-radius: 6px;
-}
-.tab-silder{
-    width: 50%;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    margin-bottom: 40px !important;
-}
-.uk-tab::before{
-    border-bottom: none !important;
+.active-page{
+    color: var(--green) !important;
 }
 .mission-section{
-    background-color: #f8f9fb;
+    background-image:url(https://centraldiagnosticlabs.com/wp-content/uploads/2021/06/service-pattern.png?id=29);
+}
+/* Team member */
+.team-img{
+    width: 100%;
+}
+.team-img img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+.team-overlay{
+    background-color: rgba(0, 0, 0, .7) !important;
+    padding: 5px !important;
+}
+.team-icon span{
+    color: white;
+    height: 18px;
+    width: 18px;
+    margin-right: 10px;
+}
+.learn-btn{
+    background: none !important;
+    border: none !important;
+    padding: 0!important;
+    font-size: 16px;
+    color: var(--green);
+    font-family:  AvertaDemo-Regular;
+    font-weight: 500;
+}
+.learn-btn a{
+    color: var(--green);
+}
+.learn-btn a :hover, .learn-btn  :hover  {
+    color: var(--red);
+}
+/******************Services Section********************* */
+.services-banner{
+    background: url(https://www.gep.com/prod/s3fs-public/styles/blog_hero_banner/public/blog-images/digitization-makes-inroads-into-laboratory-operations-management.jpg.webp?itok=YJA4fpP1); 
+    height: 57vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+ }
+ .specialities-img{
+    width: 100%;
+ }
+ .specialities-img img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+ }
+.related-specialities{
+    background-image:url(https://centraldiagnosticlabs.com/wp-content/uploads/2021/06/service-pattern.png?id=29);
+    background-attachment: fixed;
+}
+.specialty-list {
+    list-style: none;
+
 }
