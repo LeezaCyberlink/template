@@ -9,8 +9,31 @@
 </section>
 <section class="uk-section">
     <div class="uk-container">
-        <ul class="uk-grid-collapse uk-child-width-1-2@s uk-child-width-2-2@m uk-child-width-1-1 uk-margin-top" uk-grid>
-            <li class="uk-padding-small uk-flex" style="background-color:red;">
+    <div class="uk-container ">
+        <div class="uk-text-center ">
+            <h2 class="green-secondary-font uk-margin-remove-bottom ">Team Members</h2>
+            <h1 class="section-primary-font uk-margin-remove">Meet our Team Members</h1>
+        </div>
+        <ul class="uk-grid-collapse uk-child-width-1-4@s uk-child-width-2-4@m uk-child-width-1-1 uk-margin-top" uk-grid>
+            <li class="uk-padding-small">
+                <div class="team-img uk-transition-toggle uk-inline-clip">
+                    <img src="https://health.templines.info/wp-content/uploads/2017/09/doc1.jpg" alt="">
+                    <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default  uk-text-center team-overlay">
+                        <p class="uk-h4 uk-margin-remove team-icon">
+                            <span uk-icon="icon: facebook"></span>
+                            <span uk-icon="icon: twitter"></span>
+                            <span uk-icon="icon:  linkedin"></span>
+                            <span uk-icon="icon: instagram"></span>
+                        </p>
+                    </div>
+                </div>
+                <div class=" uk-margin-top ">
+                    <h4 class="uk-margin-remove-bottom para-font" style="font-size:20px;">Dr.Sampurna Tuladhar</h4>
+                    <p class="uk-margin-remove para-font ">Pathologists</p>
+                    <button class="learn-btn uk-margin-small-top"><a href="inner-team.php">Learn More <span uk-icon="icon: triangle-right"></span></a> </button>
+                </div>
+            </li>
+            <li class="uk-padding-small">
                 <div class="team-img uk-transition-toggle uk-inline-clip">
                     <img src="https://health.templines.info/wp-content/uploads/2017/09/doc4.jpg" alt="">
                     <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default  uk-text-center team-overlay">
@@ -22,15 +45,15 @@
                         </p>
                     </div>
                 </div>
-                <div>
-                <p>DR Sampurna Tuladhar</p>
-                <p>vnlsikfvns vjosjvosjdvs vs</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, illo quidem iure autem, vero delectus ad iste placeat nemo quas veniam unde ut similique ea. Laudantium voluptate consectetur accusantium eius.</p>
+                <div class=" uk-margin-top ">
+                    <h4 class="uk-margin-remove-bottom para-font" style="font-size:20px;">Dr.Sampurna Tuladhar</h4>
+                    <p class="uk-margin-remove para-font ">Pathologists</p>
+                    <button class="learn-btn uk-margin-small-top"><a href="inner-team.php">Learn More <span uk-icon="icon: triangle-right"></span></a> </button>
                 </div>
             </li>
-            <li class="uk-padding-small uk-flex" style="background-color:blue;" >
+            <li class="uk-padding-small">
                 <div class="team-img uk-transition-toggle uk-inline-clip">
-                    <img src="https://health.templines.info/wp-content/uploads/2017/09/doc4.jpg" alt="">
+                    <img src="https://health.templines.info/wp-content/uploads/2017/09/doc2.jpg" alt="">
                     <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default  uk-text-center team-overlay">
                         <p class="uk-h4 uk-margin-remove team-icon">
                             <span uk-icon="icon: facebook"></span>
@@ -40,14 +63,32 @@
                         </p>
                     </div>
                 </div>
-                <div>
-                <p>DR Sampurna Tuladhar</p>
-                <p>vnlsikfvns vjosjvosjdvs vs</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, illo quidem iure autem, vero delectus ad iste placeat nemo quas veniam unde ut similique ea. Laudantium voluptate consectetur accusantium eius.</p>
+                <div class=" uk-margin-top ">
+                    <h4 class="uk-margin-remove-bottom para-font" style="font-size:20px;">Dr.Sampurna Tuladhar</h4>
+                    <p class="uk-margin-remove para-font ">Pathologists</p>
+                    <button class="learn-btn uk-margin-small-top"><a href="inner-team.php">Learn More <span uk-icon="icon: triangle-right"></span></a> </button>
                 </div>
             </li>
-                
+            <li class="uk-padding-small">
+                <div class="team-img uk-transition-toggle uk-inline-clip">
+                    <img src="https://health.templines.info/wp-content/uploads/2017/09/doc3.jpg" alt="">
+                    <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default  uk-text-center team-overlay">
+                        <p class="uk-h4 uk-margin-remove team-icon">
+                            <span uk-icon="icon: facebook"></span>
+                            <span uk-icon="icon: twitter"></span>
+                            <span uk-icon="icon:  linkedin"></span>
+                            <span uk-icon="icon: instagram"></span>
+                        </p>
+                    </div>
+                </div>
+                <div class=" uk-margin-top ">
+                    <h4 class="uk-margin-remove-bottom para-font" style="font-size:20px;">Dr.Sampurna Tuladhar</h4>
+                    <p class="uk-margin-remove para-font ">Pathologists</p>
+                    <button class="learn-btn uk-margin-small-top"><a href="inner-team.php">Learn More <span uk-icon="icon: triangle-right"></span></a> </button>
+                </div>
+            </li>
         </ul>
+    </div>
     </div>
 </section>
 

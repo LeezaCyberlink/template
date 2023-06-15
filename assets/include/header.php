@@ -16,9 +16,22 @@
 </head>
 
 <body>
+   
 <div class="uk-offcanvas-content">
         <header>
+            
             <div class="uk-preserve-color uk-position-top">
+                    <div  style="z-index:999; position: relative; background-color: var(--green);">
+                        <ul class="para-font uk-padding uk-padding-remove-top uk-padding-remove-bottom" style="color:white;" uk-grid>
+                            <li>
+                                Phone No: +911-223423-2324
+                            </li>
+                            <li>Opening Hours: 7:00 am - 8:00 pm
+                            </li>
+                            <li>Address: New Baneshwor, Kathmandu Nepal
+                            </li>
+                        </ul>
+                    </div>
                     <nav class="uk-navbar-container uk-navbar-transparent  uk-sticky uk-sticky-fixed"  uk-sticky="start: 100; animation: uk-animation-slide-top; sel-target: uk-navbar-container ; cls-active: uk-navbar-sticky scroll-nav; cls-inactive: uk-navbar-transparent ;" style="z-index: 999;">
                         <div class="uk-container">
                             <div uk-navbar>
