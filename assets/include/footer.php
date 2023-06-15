@@ -3,9 +3,9 @@
     <div class="uk-container ">
       <div class="uk-child-width-1-4@l uk-child-width-1-2@m uk-child-width-1-1@s" uk-grid>
         <!--  -->
-        <div>
-          <h1 class="uk-bold " style="color:white;">LOGO</h1>
-          <p class="para-font"></p>
+        <div class="uk-text-center">
+        <img src="http://www.mediquestlab.com/wp-content/uploads/logo.jpg" alt="" style="height:100px; width:100px;">
+         
         </div>
         <!--  -->
         <!--  -->
@@ -22,11 +22,11 @@
         </div>
         <div>
           <h3 class="uk-footer-title">Our Department</h3>
-          <u l class="footer-list para-font">
+          <ul class="footer-list para-font">
             <li><a href="#">Cardiolody</a></li>
             <li><a href="#">Gynaloegy</a></li>
-            <li><a href="#"></a>Neonatology</a></li>
-            <li><a href="#"></a>Paediatrics</a></li>
+            <li><a href="#">Neonatology</a></li>
+            <li><a href="#">Paediatrics</a></li>
             <li><a href="#">Gastroenterology</a></li>
             <li><a href="#"> Hepatology </a></li>
           </ul>
@@ -34,10 +34,10 @@
         <div>
           <h3 class="uk-footer-title">Have a Question?</h3>
           <ul class="footer-list para-font">
-            <li><a href="">
-                Lalitpur, Bhaisepati, Nepal.</a></li>
-            <li><a href="">+977 - 01 - 421 7766</a></li>
-            <li><a href="">info@hospital.com</a></li>
+            <li><a href=""> Lalitpur,Bhaisepati, Nepal.</a>
+               </li>
+            <li><a href=""> +977-01 -4217766</a></li>
+            <li><a href="">info@hospital.com</a> </li>
           </ul>
         </div>
         <!--  -->
@@ -69,92 +69,28 @@
     </header>
     <nav class="uk-card-small uk-card-body uk-nav-small">
       <ul class="uk-nav-default uk-nav-parent-icon uk-list-divider" uk-nav>
-        <li><a href="index.php">Home</a></li>
-        <li class="uk-parent">
-          <a href="catalog.php">About Us</a>
-          <ul class="uk-nav-sub uk-list-divider">
-            <li>
-              <ul style="border-right: 1px solid #ddd;">
-                <li class="uk-mega-title"> Message </li>
-                <li><a href="message.php">Message from Chairman</a></li>
-                <li><a href="message.php">Message from Founding Principal</a></li>
-                <li><a href="message.php">Message from Principal</a></li>
-              </ul>
-            </li>
-            <li>
-              <div class="uk-margin-top uk-margin-bottom">
-                <ul style="border-right: 1px solid #ddd;">
-                  <li class="uk-mega-title"> Statements</li>
-                  <li><a href="statement.php">Mission Statements</a></li>
-                  <li><a href="statement.php">Vision Statements</a></li>
-                  <li><a href="statement.php">Objectives</a></li>
-                </ul>
-              </div>
-            </li>
-            <li>
-              <div class="uk-margin-top uk-margin-bottom">
-                <ul style="border-right: 1px solid #ddd;">
-                  <li class="uk-mega-title">Management</li>
-                  <li><a href="management.php">Board of Directors</a></li>
-                  <li><a href="management.php">Academic Support Team</a></li>
-                  <li><a href="management.php">Administrative Support Staffs</a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li>
-              <div class="uk-margin-top uk-margin-bottom">
-                <ul class="uk-nav uk-nav-default">
-                  <li class="uk-mega-title">Others</li>
-                  <li> <a href="management.php">Faculty</a></li>
-                  <li> <a href="alumini.php">Alumini</a></li>
-                  <li> <a href="partners.php">Partners</a></li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </li>
-        <li class="uk-parent">
-          <a href="brands.php">Academic Program</a>
-          <ul class="uk-nav-sub uk-list-divider">
-            <li><a href="academic.php">Master in Crisis Management Studies</a></li>
-            <li><a href="academic.php">Master in Counseling Psychhology</a></li>
-            <li><a href="academic.php">Bachelor in Computer Appliccation</a></li>
-          </ul>
-        </li>
-        <li class="uk-parent">
-          <a href="#">Admission</a>
-          <ul class="uk-nav-sub uk-list-divider">
-            <li><a href="procedure.php">Procedure</a></li>
-            <li><a href="fee.php">Fee Structure</a></li>
-            <li><a href="eligibility.php">Eligibility Criteria</a></li>
-            <li><a href="procedure.php">Application Form</a></li>
-          </ul>
-        </li>
-        <li class="uk-parent">
-          <a href="#">Information</a>
-          <ul class="uk-nav-sub uk-list-divider">
-            <li><a href="resources.php">Resource & Services</a></li>
-            <li><a href="resources.php">Academic Calender</a></li>
-            <li><a href="resources.php">Rule and Regulations</a></li>
-            <li><a href="download.php">Downloads</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="notice.php">Notice</a>
-        </li>
-        <li>
-          <a href="activities.php">Our Activities</a>
-        </li>
-        <li>
-          <a href="gallary.php">Gallery</a>
-        </li>
-        <li>
-          <a href="contact.php">Contact Us</a>
-        </li>
-        <li>
-          <a href="contact.php">Log In</a>
-        </li>
+      <li class="uk-active"><a href="index.php" class="nav-font">Home</a></li>
+                                        
+                                        <li>
+                                            <a href="about.php" class="nav-font">About Us</a>
+                                            
+                                        </li>
+                                        <li>
+                                            <a href="speciality.php" class="nav-font">Specialities</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="nav-font">Notice</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="nav-font">Appointment</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="nav-font">Department</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="nav-font">Gallery</a>
+                                        </li>
+                                        
       </ul>
     </nav>
     <nav class="uk-card-body">
