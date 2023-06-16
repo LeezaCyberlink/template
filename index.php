@@ -52,7 +52,7 @@
 <section class=" uk-section uk-padding-top " >
     <div class="uk-container js-slideshow-animation" tabindex="-1" uk-slideshow="min-height: 400; max-height: 700; ratio: 3:2; autoplay: true"  >
       <ul class="uk-grid-collapse uk-child-width-expand@m" uk-grid >
-        <li class="uk-margin-bottom uk-animation-fade ">
+        <li class="uk-margin-bottom uk-animation-fade uk-padding-small ">
             <div uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false ">
                 <div class="uk-height-1-1 uk-background-center-center uk-background-cover uk-background-norepeat uk-background-blend-overlay 
                 uk-overlay-retreat" >
@@ -60,7 +60,7 @@
                 </div>
             </div> 
         </li>
-        <li style="padding:25px;" class="uk-animation-fade">
+        <li style="padding:25px;" class="uk-animation-fade uk-padding-small">
             <div class=" uk-flex uk-flex-column "  uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false " >
                 <h1 class="green-secondary-font uk-margin-remove-bottom ">About Hospital</h1>
                 <h1 class="section-primary-font uk-margin-remove ">Medi Quest Laboratory Clinic</h1>
@@ -99,11 +99,12 @@
     
 </section>
 <!-- End About Us section -->
+<!-- Services Seection -->
 <section class="uk-section about-section ">
     <div class="uk-container js-slideshow-animation" tabindex="-1" uk-slideshow="min-height: 400; max-height: 700; ratio: 3:2; autoplay: true" >
     <div class="uk-text-center ">
-            <h2 class="green-secondary-font uk-margin-remove-bottom ">Other Specialities</h2>
-            <h1 class="section-primary-font uk-margin-remove">Meet our Team Members</h1>
+            <h2 class="green-secondary-font uk-margin-remove-bottom ">Our Services</h2>
+            <h1 class="section-primary-font uk-margin-remove">Your Trusted Medical Laboratory</h1>
         </div>
         <ul class="uk-grid-collapse uk-child-width-expand@m" uk-grid uk-height-match=".services-block">
             <li class="uk-text-center uk-padding uk-animation-fade ">
@@ -130,21 +131,20 @@
         </ul>
     </div>
 </section>
-<!-- Services Section -->
-<!-- End of serivces Section -->
-<!-- Specialiies section -->
+<!--End of Services Seection -->
+<!-- Specialities section -->
 <section class="uk-section">
     <div class="uk-container js-slideshow-animation" tabindex="-1" uk-slideshow="min-height: 400; max-height: 700; ratio: 3:2; autoplay: true" >
         <div class="uk-text-center ">
-            <h2 class="green-secondary-font uk-margin-remove-bottom ">Other Specialities</h2>
-            <h1 class="section-primary-font uk-margin-remove">Meet our Team Members</h1>
+            <h2 class="green-secondary-font uk-margin-remove-bottom ">Our Services</h2>
+            <h1 class="section-primary-font uk-margin-remove">Delivering Excellence in Medical Diagnostics</h1>
         </div>
-        <div class="uk-position-relative uk-visible-toggle uk-slider uk-slider-container " tabindex="-1" uk-slider="sets: true">
+        <div class="uk-position-relative uk-visible-toggle uk-slider uk-slider-container "  uk-slider="sets: true">
             <ul class="uk-slider-items uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-3@m uk-margin-top"  style="transform: translate3d(0px, 0px, 0px);">
                 <!--  -->
                 <li class="uk-padding-small uk-animation-fade ">
                         <div uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false ">
-                            <div class="specialities-img uk-inline-clip uk-transition-toggle" tabindex="0">
+                            <div class="specialities-img uk-inline-clip uk-transition-toggle">
                                 <img src="assets/img/hemat.jpg " class="uk-transition-scale-up uk-transition-opaque" alt="">
                             </div>
                             <div class="specialities-text uk-flex uk-padding-small">
@@ -160,7 +160,7 @@
                     </li>
                     <li class="uk-padding-small ">
                         <div uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false ">
-                            <div class="specialities-img uk-inline-clip uk-transition-toggle" tabindex="0">
+                            <div class="specialities-img uk-inline-clip uk-transition-toggle">
                                 <img src="assets/img/gyno.jpg" class="uk-transition-scale-up uk-transition-opaque" alt="">
                             </div>
                             <div class="specialities-text uk-flex uk-padding-small">
@@ -176,7 +176,7 @@
                     </li>
                     <li class="uk-padding-small ">
                         <div uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false ">
-                            <div class="specialities-img uk-inline-clip uk-transition-toggle" tabindex="0">
+                            <div class="specialities-img uk-inline-clip uk-transition-toggle" >
                                 <img src="assets/img/virus.jpg" class="uk-transition-scale-up uk-transition-opaque" alt="">
                             </div>
                             <div class="specialities-text uk-flex uk-padding-small">
@@ -192,7 +192,7 @@
                     </li>
                     <li class="uk-padding-small ">
                         <div uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false ">
-                            <div class="specialities-img uk-inline-clip uk-transition-toggle" tabindex="0">
+                            <div class="specialities-img uk-inline-clip uk-transition-toggle" >
                                 <img src="assets/img/gyno.jpg" class="uk-transition-scale-up uk-transition-opaque" alt="">
                             </div>
                             <div class="specialities-text uk-flex uk-padding-small">
@@ -223,14 +223,98 @@
                         </div>
                     </li>
             </ul>
-            <a class="uk-position-center-left uk-position-small " href="#" uk-slidenav-previous uk-slider-item="previous" style="background-color: green !important;  !important;  !important; padding: 10px 15px !important; color:white !important;"></a>
-            <a class="uk-position-center-right uk-position-small  " href="#" uk-slidenav-next uk-slider-item="next" style="background-color: green !important;  !important;  !important; padding: 10px 15px !important; color:white !important;"></a> 
+            <a class="uk-position-center-left uk-position-small " href="#" uk-slidenav-previous uk-slider-item="previous" style="background-color: green !important; padding: 10px 15px !important; color:white !important;"></a>
+            <a class="uk-position-center-right uk-position-small  " href="#" uk-slidenav-next uk-slider-item="next" style="background-color: green !important;  padding: 10px 15px !important; color:white !important;"></a> 
         </div>
     </div>
 </section>
-<!-- End  Specialiies section -->
+<!-- End  Specialities section -->
+<!-- Team member -->
+<section class="uk-section team-section uk-padding-remove-top" >
+    <div class="uk-container ">
+        <div class="uk-text-center ">
+            <h2 class="green-secondary-font uk-margin-remove-bottom ">Team Members</h2>
+            <h1 class="section-primary-font uk-margin-remove">Meet our Pathalogists</h1>
+        </div>
+        <ul class="uk-grid-collapse uk-child-width-1-4@s uk-child-width-2-4@m uk-child-width-1-1 uk-margin-top" uk-grid>
+            <li class="uk-padding-small">
+                <div class="team-img uk-transition-toggle uk-inline-clip">
+                    <img src="https://health.templines.info/wp-content/uploads/2017/09/doc1.jpg" alt="">
+                    <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default  uk-text-center team-overlay">
+                        <p class="uk-h4 uk-margin-remove team-icon">
+                            <span uk-icon="icon: facebook"></span>
+                            <span uk-icon="icon: twitter"></span>
+                            <span uk-icon="icon:  linkedin"></span>
+                            <span uk-icon="icon: instagram"></span>
+                        </p>
+                    </div>
+                </div>
+                <div class=" uk-margin-top ">
+                    <h4 class="uk-margin-remove-bottom para-font" style="font-size:20px;">Dr.Sampurna Tuladhar</h4>
+                    <p class="uk-margin-remove para-font ">Pathologists</p>
+                    <button class="learn-btn uk-margin-small-top"><a href="inner-team.php">Learn More <span uk-icon="icon: triangle-right"></span></a> </button>
+                </div>
+            </li>
+            <li class="uk-padding-small">
+                <div class="team-img uk-transition-toggle uk-inline-clip">
+                    <img src="https://health.templines.info/wp-content/uploads/2017/09/doc4.jpg" alt="">
+                    <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default  uk-text-center team-overlay">
+                        <p class="uk-h4 uk-margin-remove team-icon">
+                            <span uk-icon="icon: facebook"></span>
+                            <span uk-icon="icon: twitter"></span>
+                            <span uk-icon="icon:  linkedin"></span>
+                            <span uk-icon="icon: instagram"></span>
+                        </p>
+                    </div>
+                </div>
+                <div class=" uk-margin-top ">
+                    <h4 class="uk-margin-remove-bottom para-font" style="font-size:20px;">Dr.Sampurna Tuladhar</h4>
+                    <p class="uk-margin-remove para-font ">Pathologists</p>
+                    <button class="learn-btn uk-margin-small-top"><a href="inner-team.php">Learn More <span uk-icon="icon: triangle-right"></span></a> </button>
+                </div>
+            </li>
+            <li class="uk-padding-small">
+                <div class="team-img uk-transition-toggle uk-inline-clip">
+                    <img src="https://health.templines.info/wp-content/uploads/2017/09/doc2.jpg" alt="">
+                    <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default  uk-text-center team-overlay">
+                        <p class="uk-h4 uk-margin-remove team-icon">
+                            <span uk-icon="icon: facebook"></span>
+                            <span uk-icon="icon: twitter"></span>
+                            <span uk-icon="icon:  linkedin"></span>
+                            <span uk-icon="icon: instagram"></span>
+                        </p>
+                    </div>
+                </div>
+                <div class=" uk-margin-top ">
+                    <h4 class="uk-margin-remove-bottom para-font" style="font-size:20px;">Dr.Sampurna Tuladhar</h4>
+                    <p class="uk-margin-remove para-font ">Pathologists</p>
+                    <button class="learn-btn uk-margin-small-top"><a href="inner-team.php">Learn More <span uk-icon="icon: triangle-right"></span></a> </button>
+                </div>
+            </li>
+            <li class="uk-padding-small">
+                <div class="team-img uk-transition-toggle uk-inline-clip">
+                    <img src="https://health.templines.info/wp-content/uploads/2017/09/doc3.jpg" alt="">
+                    <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default  uk-text-center team-overlay">
+                        <p class="uk-h4 uk-margin-remove team-icon">
+                            <span uk-icon="icon: facebook"></span>
+                            <span uk-icon="icon: twitter"></span>
+                            <span uk-icon="icon:  linkedin"></span>
+                            <span uk-icon="icon: instagram"></span>
+                        </p>
+                    </div>
+                </div>
+                <div class=" uk-margin-top ">
+                    <h4 class="uk-margin-remove-bottom para-font" style="font-size:20px;">Dr.Sampurna Tuladhar</h4>
+                    <p class="uk-margin-remove para-font ">Pathologists</p>
+                    <button class="learn-btn uk-margin-small-top"><a href="inner-team.php">Learn More <span uk-icon="icon: triangle-right"></span></a> </button>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+<!--  end Team member -->
 <!-- package section -->
-<section class="uk-section package-section uk-padding-remove-top" >
+<!-- <section class="uk-section package-section uk-padding-remove-top" >
     <div class="uk-container js-slideshow-animation" tabindex="-1" uk-slideshow="min-height: 400; max-height: 700; ratio: 3:2; autoplay: true">
     <div class="uk-text-center uk-margin-large-bottom">
       <h1 class="green-secondary-font uk-margin-remove-bottom">Our Packages</h1>
@@ -238,7 +322,6 @@
     </div>
     <div class="uk-position-relative uk-visible-toggle uk-slider uk-slider-container " tabindex="-1" uk-slider="sets: true">
       <ul class="uk-companies-list uk-slider-items uk-child-width-1-1 uk-child-width-1-3@s uk-child-width-1-4@m"  style="transform: translate3d(0px, 0px, 0px);">
-         <!--  -->
          <li tabindex="-1" class="uk-active uk-animation-fade" style="order: -1;  height:400px;">     
             <div class="uk-inline uk-transition-toggle" tabindex="0" uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false " >
                 <img src="assets/img/service1.jpg" style="height:400px; object-fit:cover;">
@@ -325,7 +408,7 @@
       <a href="about.php" class="red-button ">View All Packages</a>
     </div>
 </div>   
-</section >
+</section > -->
 <!-- end package section-->
 <!-- Testimonials  -->
 <section class="uk-section  uk-padding-remove-top">
@@ -340,7 +423,7 @@
             <span class="uk-quote" uk-icon="icon: quote-right; ratio: 3" style="color:var(--red);"></span>
           </div>
           <ul class="uk-slider-items  " uk-height-match="target:.uk-testimonials-list" >
-            <!--student -->
+           
             <li class="uk-animation-fade">
               <div class="uk-testimonials-list uk-align-center uk-padding" uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false ">
                 <div class="uk-image-user">
@@ -353,8 +436,7 @@
                 <div class="uk-clearfix"></div>
               </div>
             </li>
-            <!--student end  -->
-            <!--student -->
+           
             <li>
               <div class="uk-testimonials-list uk-align-center uk-padding">
                 <div class="uk-image-user">
@@ -367,7 +449,7 @@
                 <div class="uk-clearfix"></div>
               </div>
             </li>
-            <!--student end  -->
+          
           </ul>
           <div class="uk-clearfix"></div>
           <a class="uk-position-center-left uk-position-small " href="#" uk-slidenav-previous uk-slider-item="previous" style="background-color: green !important;  !important;  !important; padding: 10px 15px !important; color:white !important;"></a>
@@ -387,13 +469,12 @@
         <h1 class="section-primary-font  uk-margin-small">Latest News</h1>
       </div>
       <ul class="uk-grid-collapse  uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-3@m uk-margin-small-top" uk-grid>
-        <li class="uk-animation-fade">
-            <div class=" uk-padding-small" uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false ">
+        <li class="uk-animation-fade uk-padding-small">
+            <div class=" " uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false ">
                 <div class="uk-card uk-card-default uk-team-member" >
                     <div class="uk-card-media-top">
                         <img src="assets/img/service1.jpg" width="1800" height="1200" alt="">
                     </div>  
-                   
                     <div class="uk-card-body uk-text-left uk-padding-small uk-test-justify"  >
                         <h3 class="uk-margin-remove blog-font">In this hospital there are special surgron</h3>
                         
@@ -407,16 +488,14 @@
                 </div>
             </div> 
         </li>
-        <li class="uk-animation-fade">
-            <div class=" uk-padding-small" uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false ">
+        <li class="uk-animation-fade uk-padding-small">
+            <div class="" uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false ">
                 <div class="uk-card uk-card-default uk-team-member"  >
                     <div class="uk-card-media-top">
                         <img src="assets/img/service1.jpg" width="1800" height="1200" alt="">
                     </div>  
-                   
                     <div class="uk-card-body uk-text-left uk-padding-small uk-test-justify" >
                         <h3 class="uk-margin-remove blog-font">In this hospital there are special surgron</h3>
-                        
                         <p class="para-font uk-margin-remove ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque autem ut suscipit cumque esse nemo. Ab, minima. Aut ab magnam a mollitia. </p>
                         <hr>
                         <div >
@@ -427,8 +506,8 @@
                 </div>
             </div> 
         </li>
-        <li class="uk-animation-fade">
-            <div class=" uk-padding-small" uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false ">
+        <li class="uk-animation-fade uk-padding-small">
+            <div class="" uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false ">
                 <div class="uk-card uk-card-default uk-team-member" >
                     <div class="uk-card-media-top">
                         <img src="assets/img/service1.jpg" width="1800" height="1200" alt="">

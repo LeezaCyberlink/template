@@ -61,7 +61,7 @@
     </div>
   </div>
 </footer>
-<div id="nav-offcanvas" uk-offcanvas="mode: push; overlay: true">
+<div id="nav-offcanvas" uk-offcanvas="mode: none; overlay: true">
   <div class="uk-offcanvas-bar uk-padding-remove">
     <header class="uk-card-header uk-flex uk-flex-middle">
       <div class="uk-flex uk-flex-center">

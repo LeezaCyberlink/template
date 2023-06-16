@@ -21,25 +21,29 @@
         <header>
             
             <div class="uk-preserve-color uk-position-top">
-                    <div  style="z-index:999; position: relative; background-color: var(--green);">
-                        <ul class="para-font uk-padding uk-padding-remove-top uk-padding-remove-bottom" style="color:white;" uk-grid>
-                            <li>
-                                Phone No: +911-223423-2324
-                            </li>
-                            <li>Opening Hours: 7:00 am - 8:00 pm
-                            </li>
-                            <li>Address: New Baneshwor, Kathmandu Nepal
+                    <div class="uk-navbar-container uk-visible@l "  style="z-index:999; position: relative; background-color: var(--green);">
+                        <ul class="small-nav-font uk-margin-remove" style="color:white;" uk-grid>
+                           <li class="uk-width-2-3 uk-flex " style="padding-top: 10px; padding-bottom:10px;">
+                            <div><p class="uk-margin-remove"><span uk-icon="icon: phone"></span> Phone No:+95662364646461,+95662364646461</p></div>
+                           <div class="uk-margin-left"><p class="uk-margin-remove "> <span uk-icon="icon: location"></span> Address: Jawalekel, laltipur</p></div>
+                        </li>
+                            <li class="  uk-width-1-3" style="padding-top: 10px; padding-bottom:10px;">
+                                <div class="uk-float-right">
+                                <span uk-icon="icon: facebook" style="margin-right:6px;"></span>
+                                <span uk-icon="icon: twitter"  style="margin-right:6px;"></span>
+                                <span uk-icon="icon:  linkedin"  style="margin-right:6px;"></span>
+                                <span uk-icon="icon: instagram"  style="margin-right:6px;"></span>
+                                </div>
                             </li>
                         </ul>
                     </div>
-                    <nav class="uk-navbar-container uk-navbar-transparent  uk-sticky uk-sticky-fixed"  uk-sticky="start: 100; animation: uk-animation-slide-top; sel-target: uk-navbar-container ; cls-active: uk-navbar-sticky scroll-nav; cls-inactive: uk-navbar-transparent ;" style="z-index: 999;">
+                    <nav class="uk-navbar-container   uk-sticky uk-sticky-fixed"  uk-sticky="start: 100; animation: uk-animation-slide-top; sel-target: uk-navbar-container ; cls-active: uk-navbar-sticky scroll-nav; cls-inactive: uk-navbar-transparent ;">
                         <div class="uk-container">
                             <div uk-navbar>
-
-                                <div class="uk-navbar-left ">
+                                <div class="uk-navbar-left  ">
                                     <button class="uk-navbar-toggle uk-hidden@m" uk-toggle="target: #nav-offcanvas" uk-navbar-toggle-icon></button>
                                     <a class="uk-navbar-item uk-logo uk-margin-large-right" href="index.php">
-                                      <img src="http://www.mediquestlab.com/wp-content/uploads/logo.jpg" alt="">
+                                    <img src="assets/img/logo.jpg" alt="" style=" width: 74px; height: 70px;">
                                     </a>
                                 </div>
 
@@ -49,10 +53,39 @@
                                         
                                         <li>
                                             <a href="about.php" class="nav-font">About Us</a>
-                                            
                                         </li>
                                         <li>
                                             <a href="speciality.php" class="nav-font">Specialities</a>
+                                            <div class="uk-navbar-dropdown uk-navbar-dropdown-width-3">
+                                                <div class="uk-drop-grid uk-child-width-1-3" uk-grid>
+                                                    <div>
+                                                        <ul class="uk-nav uk-navbar-dropdown-nav  " >
+                                                      
+                                                            <li ><a href="#" class="nav-font" >Gynae Pathology</a> </li>
+                                                            <li><a href="#" class="nav-font">Infectious Disease</a> </li>
+                                                            <li><a href="#" class="nav-font">Biochemistry</a></li>  
+                                                        </ul>
+                                                      
+                                                    </div>
+                                                    
+                                                    <div>
+                                                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                                                            <li><a href="#" class="nav-font">Immunological Tests (Clia-Based Tests)</a></li>  
+                                                            <li><a href="#" class="nav-font">Histology and Cytopathology</a></li>  
+                                                            <li><a href="#" class="nav-font">Microbiology</a></li>  
+                                                        </ul>
+                                                        
+                                                    </div>
+                                                   
+                                                    <div>
+                                                        <ul class="uk-nav uk-navbar-dropdown-nav nav-font">
+                                                            <li><a href="#" class="nav-font">Immunohistochemistry</a></li>  
+                                                            <li><a href="#" class="nav-font">Flow Cytometry</a></li>  
+                                                            <li><a href="#" class="nav-font">Recently added tests</a></li> 
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </li>
                                         <li>
                                             <a href="#" class="nav-font">Notice</a>
