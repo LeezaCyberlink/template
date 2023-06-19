@@ -8,7 +8,7 @@
             <img src="assets/img/lab.jpg" alt="" uk-cover>
             <div class="uk-position-center-left uk-main">
                 <div class="uk-container uk-padding-large uk-width-2xlarge">
-                  <h2 class="banner-secondary-font uk-margin-bottom-small" uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false ">"Center for blood disorders." </h2>
+                  <h2 class="banner-secondary-font uk-margin-remove-bottom" uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false " style="margin-top:60px !important;">"Center for blood disorders." </h2>
                   <h2 class="banner-primary-font uk-margin-remove-top" style="color:white;" uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false "> Medi Quest Laboratory Clinic Pvt Ltd</h2>
                   <p class="banner-para-font"  uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false " >"Expert care with compassion. Your wellness is our top priority. Experience exceptional healthcare close to home. Committed to empowering your health and providing nurturing support.</p>
                   <a href="about.php" class="blue-button ">Book Appointment</a>
@@ -21,7 +21,7 @@
             <img src="assets/img/lab.jpg" alt="" uk-cover>
             <div class="uk-position-center-left uk-main">
                 <div class="uk-container uk-padding-large uk-width-2xlarge">
-                  <h2 class="banner-secondary-font uk-margin-bottom-small" uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false ">"Center for blood disorders." </h2>
+                  <h2 class="banner-secondary-font uk-margin-remove-bottom" uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false " style="margin-top:60px !important;">"Center for blood disorders." </h2>
                   <h2 class="banner-primary-font uk-margin-remove-top" style="color:white;" uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false "> Medi Quest Laboratory Clinic Pvt Ltd</h2>
                   <p class="banner-para-font"  uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false " >"Expert care with compassion. Your wellness is our top priority. Experience exceptional healthcare close to home. Committed to empowering your health and providing nurturing support.</p>
                   <a href="about.php" class="blue-button ">Book Appointment</a>
@@ -34,7 +34,7 @@
             <img src="assets/img/lab.jpg" alt="" uk-cover>
             <div class="uk-position-center-left uk-main">
                 <div class="uk-container uk-padding-large uk-width-2xlarge">
-                  <h2 class="banner-secondary-font uk-margin-bottom-small" uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false ">"Center for blood disorders." </h2>
+                  <h2 class="banner-secondary-font uk-margin-remove-bottom" uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false " style="margin-top:60px !important;">"Center for blood disorders." </h2>
                   <h2 class="banner-primary-font uk-margin-remove-top" style="color:white;" uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false "> Medi Quest Laboratory Clinic Pvt Ltd</h2>
                   <p class="banner-para-font"  uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false " >"Expert care with compassion. Your wellness is our top priority. Experience exceptional healthcare close to home. Committed to empowering your health and providing nurturing support.</p>
                   <a href="about.php" class="blue-button ">Book Appointment</a>
@@ -43,8 +43,8 @@
             </div>
           </li>
         </ul>
-        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-icon="icon: chevron-left;ratio: 3" uk-slideshow-item="previous"></a>
-        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-icon="icon: chevron-right;ratio: 3" uk-slideshow-item="next"></a>
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover uk-visible@m" href="#" uk-icon="icon: chevron-left;ratio: 3" uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover uk-visible@m" href="#" uk-icon="icon: chevron-right;ratio: 3" uk-slideshow-item="next"></a>
       </div>
   </div>
 <!-- End banner -->
@@ -56,7 +56,7 @@
             <div uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false ">
                 <div class="uk-height-1-1 uk-background-center-center uk-background-cover uk-background-norepeat uk-background-blend-overlay 
                 uk-overlay-retreat" >
-                <img class="uk-box-shadow-large" src="assets/img/about.jpeg " alt="About Us" style="height:500px; object-fit:cover;">
+                <img class="uk-box-shadow-large" src="assets/img/about.jpg " alt="About Us" style="height:500px; object-fit:cover;">
                 </div>
             </div> 
         </li>
@@ -106,7 +106,7 @@
             <h2 class="green-secondary-font uk-margin-remove-bottom ">Our Services</h2>
             <h1 class="section-primary-font uk-margin-remove">Your Trusted Medical Laboratory</h1>
         </div>
-        <ul class="uk-grid-collapse uk-child-width-expand@m" uk-grid uk-height-match=".services-block">
+        <ul class="uk-grid-collapse uk-child-width-expand@m " uk-grid uk-height-match=".services-block">
             <li class="uk-text-center uk-padding uk-animation-fade ">
                 <div class="services-block"  uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false ">
                 <img src="assets/img/icons/fast-delivery.png" alt="">
@@ -240,14 +240,14 @@
             <li class="uk-padding-small">
                 <div class="team-img uk-transition-toggle uk-inline-clip">
                     <img src="https://health.templines.info/wp-content/uploads/2017/09/doc1.jpg" alt="">
-                    <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default  uk-text-center team-overlay">
+                    <!-- <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default  uk-text-center team-overlay">
                         <p class="uk-h4 uk-margin-remove team-icon">
                             <span uk-icon="icon: facebook"></span>
                             <span uk-icon="icon: twitter"></span>
                             <span uk-icon="icon:  linkedin"></span>
                             <span uk-icon="icon: instagram"></span>
                         </p>
-                    </div>
+                    </div> -->
                 </div>
                 <div class=" uk-margin-top ">
                     <h4 class="uk-margin-remove-bottom para-font" style="font-size:20px;">Dr.Sampurna Tuladhar</h4>
@@ -258,17 +258,17 @@
             <li class="uk-padding-small">
                 <div class="team-img uk-transition-toggle uk-inline-clip">
                     <img src="https://health.templines.info/wp-content/uploads/2017/09/doc4.jpg" alt="">
-                    <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default  uk-text-center team-overlay">
+                    <!-- <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default  uk-text-center team-overlay">
                         <p class="uk-h4 uk-margin-remove team-icon">
                             <span uk-icon="icon: facebook"></span>
                             <span uk-icon="icon: twitter"></span>
                             <span uk-icon="icon:  linkedin"></span>
                             <span uk-icon="icon: instagram"></span>
                         </p>
-                    </div>
+                    </div> -->
                 </div>
                 <div class=" uk-margin-top ">
-                    <h4 class="uk-margin-remove-bottom para-font" style="font-size:20px;">Dr.Sampurna Tuladhar</h4>
+                    <h4 class="uk-margin-remove-bottom para-font" style="font-size:20px;">Dr.Samir Neupane</h4>
                     <p class="uk-margin-remove para-font ">Pathologists</p>
                     <button class="learn-btn uk-margin-small-top"><a href="inner-team.php">Learn More <span uk-icon="icon: triangle-right"></span></a> </button>
                 </div>
@@ -276,17 +276,17 @@
             <li class="uk-padding-small">
                 <div class="team-img uk-transition-toggle uk-inline-clip">
                     <img src="https://health.templines.info/wp-content/uploads/2017/09/doc2.jpg" alt="">
-                    <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default  uk-text-center team-overlay">
+                    <!-- <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default  uk-text-center team-overlay">
                         <p class="uk-h4 uk-margin-remove team-icon">
                             <span uk-icon="icon: facebook"></span>
                             <span uk-icon="icon: twitter"></span>
                             <span uk-icon="icon:  linkedin"></span>
                             <span uk-icon="icon: instagram"></span>
                         </p>
-                    </div>
+                    </div> -->
                 </div>
                 <div class=" uk-margin-top ">
-                    <h4 class="uk-margin-remove-bottom para-font" style="font-size:20px;">Dr.Sampurna Tuladhar</h4>
+                    <h4 class="uk-margin-remove-bottom para-font" style="font-size:20px;">Dr.Krishna Kumar Maharjan</h4>
                     <p class="uk-margin-remove para-font ">Pathologists</p>
                     <button class="learn-btn uk-margin-small-top"><a href="inner-team.php">Learn More <span uk-icon="icon: triangle-right"></span></a> </button>
                 </div>
@@ -294,17 +294,17 @@
             <li class="uk-padding-small">
                 <div class="team-img uk-transition-toggle uk-inline-clip">
                     <img src="https://health.templines.info/wp-content/uploads/2017/09/doc3.jpg" alt="">
-                    <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default  uk-text-center team-overlay">
+                    <!-- <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default  uk-text-center team-overlay">
                         <p class="uk-h4 uk-margin-remove team-icon">
                             <span uk-icon="icon: facebook"></span>
                             <span uk-icon="icon: twitter"></span>
                             <span uk-icon="icon:  linkedin"></span>
                             <span uk-icon="icon: instagram"></span>
                         </p>
-                    </div>
+                    </div> -->
                 </div>
                 <div class=" uk-margin-top ">
-                    <h4 class="uk-margin-remove-bottom para-font" style="font-size:20px;">Dr.Sampurna Tuladhar</h4>
+                    <h4 class="uk-margin-remove-bottom para-font" style="font-size:20px;">Dr.Sherya Sapkota</h4>
                     <p class="uk-margin-remove para-font ">Pathologists</p>
                     <button class="learn-btn uk-margin-small-top"><a href="inner-team.php">Learn More <span uk-icon="icon: triangle-right"></span></a> </button>
                 </div>
@@ -576,6 +576,5 @@
         </ul>
    </div>
 </section>
-
 
 <?php include('assets/include/footer.php');?>

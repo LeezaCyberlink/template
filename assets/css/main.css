@@ -28,7 +28,7 @@ a.nav-font{
     font-weight: 500;
 }
 a.nav-font:hover{
-       color: var(--green)!important;
+     color: var(--green)!important;
 }
 
 .uk-navbar-container:not(.uk-navbar-transparent) a.nav-font {
@@ -40,6 +40,11 @@ a.nav-font:hover{
 .uk-navbar-nav .uk-navbar-dropdown li a:hover{
     transform: translateX(6px);
 transition:.3s;
+}
+@media (min-width: 960px){
+.uk-navbar-nav {
+    gap: 40px !important;
+}
 }
 :root {
     --green: #00A652;
@@ -64,7 +69,7 @@ transition:.3s;
 }
 .banner-secondary-font{
     font-family: AvertaDemo-Regular;
-    font-size: 22px;
+    font-size: 17px;
     color: white;
 }
 .banner-para-font{
@@ -108,7 +113,7 @@ transition:.3s;
     color: #606b72;
     font-size: 15px;
     font-weight: 400;
-    text-align: justify;
+    
     line-height: 1.6;
 }
 .service-primary-font{
@@ -323,6 +328,16 @@ footer a:hover{
 .uk-third-footer{
     background:#2B3B4B;
 }
+.uk-offcanvas-bar{
+    background-color: white !important;
+}
+.footer-icon {
+    color: var(--green)!important;
+    background-color: #606b7247!important;
+}
+.uk-offcanvas-close{
+    color: #00A652 !important;
+}
 /************************************** about us page **********************************************/
 .banner-overlay {
     position: absolute;
@@ -344,7 +359,7 @@ footer a:hover{
    background-attachment: fixed;
 }
 .banner-text{
-  padding-top: 120px;
+  padding-top: 130px;
   text-align: center;
   z-index: 5 ;
  

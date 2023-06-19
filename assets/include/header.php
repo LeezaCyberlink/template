@@ -24,8 +24,8 @@
                     <div class="uk-navbar-container uk-visible@l "  style="z-index:999; position: relative; background-color: var(--green);">
                         <ul class="small-nav-font uk-margin-remove" style="color:white;" uk-grid>
                            <li class="uk-width-2-3 uk-flex " style="padding-top: 10px; padding-bottom:10px;">
-                            <div><p class="uk-margin-remove"><span uk-icon="icon: phone"></span> Phone No:+95662364646461,+95662364646461</p></div>
-                           <div class="uk-margin-left"><p class="uk-margin-remove "> <span uk-icon="icon: location"></span> Address: Jawalekel, laltipur</p></div>
+                            <div><p class="uk-margin-remove"><span uk-icon="icon: phone"></span> Phone No: 015422639, 015421782, 9861666872</p></div>
+                           <div class="uk-margin-left"><p class="uk-margin-remove "> <span uk-icon="icon: location"></span> Address: Jawalakhel, laltipur</p></div>
                         </li>
                             <li class="  uk-width-1-3" style="padding-top: 10px; padding-bottom:10px;">
                                 <div class="uk-float-right">
@@ -56,48 +56,46 @@
                                         </li>
                                         <li>
                                             <a href="speciality.php" class="nav-font">Specialities</a>
-                                            <div class="uk-navbar-dropdown uk-navbar-dropdown-width-3">
+                                            <div class="uk-navbar-dropdown uk-navbar-dropdown-width-3" uk-drop="delay-hide: 10; uk-animation-slide-top-small; duration: 300; boundary: header; boundary-align: true; pos: bottom-justify stretch: x; flip: false">
                                                 <div class="uk-drop-grid uk-child-width-1-3" uk-grid>
                                                     <div>
                                                         <ul class="uk-nav uk-navbar-dropdown-nav  " >
                                                       
-                                                            <li ><a href="#" class="nav-font" >Gynae Pathology</a> </li>
-                                                            <li><a href="#" class="nav-font">Infectious Disease</a> </li>
-                                                            <li><a href="#" class="nav-font">Biochemistry</a></li>  
+                                                            <li ><a href="inner-specilities.php" class="nav-font" ><span uk-icon="arrow-right"></span>Gynae Pathology</a> </li>
+                                                            <li><a href="inner-specilities.php" class="nav-font"><span uk-icon="arrow-right"></span>Infectious Disease</a> </li>
+                                                            <li><a href="inner-specilities.php" class="nav-font"><span uk-icon="arrow-right"></span>Biochemistry</a></li>  
                                                         </ul>
                                                       
                                                     </div>
                                                     
-                                                    <div>
+                                                    <div class="uk-padding-remove">
                                                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                                                            <li><a href="#" class="nav-font">Immunological Tests (Clia-Based Tests)</a></li>  
-                                                            <li><a href="#" class="nav-font">Histology and Cytopathology</a></li>  
-                                                            <li><a href="#" class="nav-font">Microbiology</a></li>  
+                                                            <li><a href="inner-specilities.php" class="nav-font"><span uk-icon="arrow-right"></span>Immunological Tests (Clia-Based Tests)</a></li>  
+                                                            <li><a href="inner-specilities.php" class="nav-font"><span uk-icon="arrow-right"></span>Histology and Cytopathology</a></li>  
+                                                            <li><a href="inner-specilities.php" class="nav-font"><span uk-icon="arrow-right"></span>Microbiology</a></li>  
                                                         </ul>
                                                         
                                                     </div>
                                                    
-                                                    <div>
+                                                    <div class="uk-padding-remove">
                                                         <ul class="uk-nav uk-navbar-dropdown-nav nav-font">
-                                                            <li><a href="#" class="nav-font">Immunohistochemistry</a></li>  
-                                                            <li><a href="#" class="nav-font">Flow Cytometry</a></li>  
-                                                            <li><a href="#" class="nav-font">Recently added tests</a></li> 
+                                                            <li><a href="inner-specilities.php" class="nav-font"><span uk-icon="arrow-right"></span>Immunohistochemistry</a></li>  
+                                                            <li><a href="inner-specilities.php" class="nav-font"><span uk-icon="arrow-right"></span>Flow Cytometry</a></li>  
+                                                            <li><a href="inner-specilities.php" class="nav-font"><span uk-icon="arrow-right"></span>Recently added tests</a></li> 
                                                         </ul>
                                                     </div>
                                                 </div>
                                             </div>
                                         </li>
+                                        <!-- <li>
+                                            <a href="#" class="nav-font">Services</a>
+                                        </li> -->
+                                       
                                         <li>
-                                            <a href="#" class="nav-font">Notice</a>
+                                            <a href="#" class="nav-font">News</a>
                                         </li>
                                         <li>
-                                            <a href="#" class="nav-font">Appointment</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="nav-font">Department</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="nav-font">Gallery</a>
+                                            <a href="#" class="nav-font">Contact</a>
                                         </li>
                                         
                                     </ul>

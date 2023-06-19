@@ -61,53 +61,45 @@
     </div>
   </div>
 </footer>
-<div id="nav-offcanvas" uk-offcanvas="mode: none; overlay: true">
+<div id="nav-offcanvas" uk-offcanvas="mode: none; overlay: true" >
   <div class="uk-offcanvas-bar uk-padding-remove">
-    <header class="uk-card-header uk-flex uk-flex-middle">
-      <div class="uk-flex uk-flex-center">
+    <header class="uk-card-header uk-flex ">
+      <div class="uk-flex ">
+      <img src="assets/img/logo.jpg" alt="" style=" width: 74px; height: 70px;">
       </div>
     </header>
+    <div style="height:1px; background:#80808061;"></div>
     <nav class="uk-card-small uk-card-body uk-nav-small">
-      <ul class="uk-nav-default uk-nav-parent-icon uk-list-divider" uk-nav>
-      <li class="uk-active"><a href="index.php" class="nav-font">Home</a></li>
-                                        
-                                        <li>
-                                            <a href="about.php" class="nav-font">About Us</a>
-                                            
-                                        </li>
-                                        <li>
-                                            <a href="speciality.php" class="nav-font">Specialities</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="nav-font">Notice</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="nav-font">Appointment</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="nav-font">Department</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="nav-font">Gallery</a>
-                                        </li>
-                                        
+      <ul class="uk-nav-default" uk-nav>
+        <li><a href="index.php" class="nav-font uk-margin-small-bottom">Home <span uk-nav-parent-icon></span></a></li>
+        <li><a href="about.php" class="nav-font uk-margin-small-bottom">About us <span uk-nav-parent-icon></span></a></li>
+        <li class="uk-parent" >
+          <a href="speciality.php" class="nav-font uk-margin-small-bottom">Specialities <span uk-nav-parent-icon></span></a>
+            <ul class="uk-nav-sub">
+                <li><a href="inner-specilities.php" class="nav-font" ><span uk-icon="arrow-right"></span>Gynae Pathology</a> </li>
+                <li><a href="inner-specilities.php" class="nav-font"><span uk-icon="arrow-right"></span>Infectious Disease</a> </li>
+                <li><a href="inner-specilities.php" class="nav-font"><span uk-icon="arrow-right"></span>Biochemistry</a></li>
+                <li><a href="inner-specilities.php" class="nav-font"><span uk-icon="arrow-right"></span>Immunological Tests (Clia-Based Tests)</a></li>  
+                <li><a href="inner-specilities.php" class="nav-font"><span uk-icon="arrow-right"></span>Histology and Cytopathology</a></li>  
+                <li><a href="inner-specilities.php" class="nav-font"><span uk-icon="arrow-right"></span>Microbiology</a></li>  
+                <li><a href="inner-specilities.php" class="nav-font"><span uk-icon="arrow-right"></span>Immunohistochemistry</a></li>  
+                <li><a href="inner-specilities.php" class="nav-font"><span uk-icon="arrow-right"></span>Flow Cytometry</a></li>  
+                <li><a href="inner-specilities.php" class="nav-font"><span uk-icon="arrow-right"></span>Recently added tests</a></li> 
+            </ul>
+        </li>
+        <li><a href="about.php" class="nav-font uk-margin-small-bottom">Services <span uk-nav-parent-icon></span></a></li>
+        <li><a href="about.php" class="nav-font uk-margin-small-bottom">News <span uk-nav-parent-icon></span></a></li>
+        <li><a href="about.php" class="nav-font uk-margin-small-bottom">Contact <span uk-nav-parent-icon></span></a></li>                             
       </ul>
     </nav>
+    <div style="height:1px; background:#80808061;"></div>
     <nav class="uk-card-body">
-      <ul class="uk-iconnav uk-flex-center">
-        <li>
-          <a href="#" title="Facebook" uk-icon="facebook"></a>
-        </li>
-        <li>
-          <a href="#" title="Twitter" uk-icon="twitter"></a>
-        </li>
-        <li>
-          <a href="#" title="YouTube" uk-icon="youtube"></a>
-        </li>
-        <li>
-          <a href="#" title="Instagram" uk-icon="instagram"></a>
-        </li>
-      </ul>
+    <div >
+    <a href="" class="uk-icon-button footer-icon uk-margin-small-right"   uk-icon="twitter"></a>
+    <a href="" class="uk-icon-button footer-icon uk-margin-small-right"  uk-icon="facebook"></a>
+    <a href="" class="uk-icon-button footer-icon uk-margin-small-right" uk-icon="instagram"></a>
+    <a href="" class="uk-icon-button footer-icon" uk-icon="youtube"></a>
+</div>
     </nav>
   </div>
 </div>
