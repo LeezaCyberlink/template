@@ -92,10 +92,10 @@
                                         </li> -->
                                        
                                         <li>
-                                            <a href="#" class="nav-font">News</a>
+                                            <a href="news.php" class="nav-font">News</a>
                                         </li>
                                         <li>
-                                            <a href="#" class="nav-font">Contact</a>
+                                            <a href="contact.php" class="nav-font">Contact</a>
                                         </li>
                                         
                                     </ul>

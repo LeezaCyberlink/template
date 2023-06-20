@@ -104,9 +104,10 @@ transition:.3s;
 }
 .green-secondary-font{
     font-family: AvertaDemo-Regular;
-    font-size: 22px;
+    font-size: 18px;
     color: var(--green);
     font-weight: 900;
+    text-transform: uppercase;
 }
 .para-font{
     font-family: 'Poppins', sans-serif;
@@ -359,7 +360,7 @@ footer a:hover{
    background-attachment: fixed;
 }
 .banner-text{
-  padding-top: 130px;
+  padding-top: 160px;
   text-align: center;
   z-index: 5 ;
  
@@ -404,7 +405,7 @@ footer a:hover{
 .learn-btn a :hover, .learn-btn  :hover  {
     color: var(--red);
 }
-/******************Services Section********************* */
+/******************Specialities Section********************* */
 .services-banner{
     background: url(https://www.gep.com/prod/s3fs-public/styles/blog_hero_banner/public/blog-images/digitization-makes-inroads-into-laboratory-operations-management.jpg.webp?itok=YJA4fpP1); 
     height: 57vh;
@@ -429,6 +430,12 @@ footer a:hover{
     width: 100%;
     object-fit: cover;
 }
-.specialities-related-img{
-    
+.specialities-related-img img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
 }
+.specialities-list{
+    list-style-image: url(../img/icons/arrow-right.png);
+}
+/************Contact Us*************** */

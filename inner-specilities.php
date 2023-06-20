@@ -7,7 +7,7 @@
         <p class="para-font  uk-text-center" style="color:white;">Home < Specialities <  <span class="active-page">Hematopathology</span> </p>
     </div>
 </section>
-<section class="uk-section" style="background:#f7f7f7;">
+<section class="uk-section" >
     <div class=" uk-container">
         <ul class="uk-grid-collapse uk-child-width-1-1@xs uk-child-width-1-2@m  uk-margin-top" uk-grid >
         <li class="uk-padding-small">
@@ -21,10 +21,10 @@
                 </div>
             </li>
             <li class="uk-padding-small">
-                <div class="specialities-block uk-background-default uk-padding" >
+                <div class="specialities-block uk-background-default uk-padding uk-card uk-card-default" style="background:#f7f7f7;">
                     <p class="uk-text-bold para-font">Our Hematopathology consists of following services:</p>
-                <ul class="hello para-font">
-                    <li> Bone Marrow Examination</li>
+                <ul class="specialities-list para-font">
+                    <li>Bone Marrow Examination</li>
                     <li>Peripherial blood and Bone Marrow Cytogenetic study</li>
                     <li> flow cytometry</li>
                     <li>RT-PCR for BDR/ABL quantitativ and PML RARA</li>
@@ -37,31 +37,26 @@
         </ul>
     </div>
 </section>
-<section class="uk-section ">
+<section class="uk-section uk-padding-remove-top">
     <div class="uk-container">
-       
-
-            <ul class=" uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-3@m uk-margin-top" uk-grid  style="transform: translate3d(0px, 0px, 0px);">
-                <!--  -->
-                <li class="uk-padding-small ">
+           <ul class="uk-grid-collapse uk-child-width-1-2@s uk-child-width-1-3@m " uk-grid >
+                <li class="uk-padding-small" uk-lightbox>
                     <div class="specialities-related-img uk-inline-clip uk-transition-toggle" tabindex="0">
-                         <img src="https://i0.wp.com/greatlakespath.com/wp-content/uploads/2022/09/hemato_800px.jpg?fit=800%2C533&ssl=1" class="uk-transition-scale-up uk-transition-opaque" alt="">
-                    </div>           
+                        <a href="assets/img/hemato.jpg"><img src="assets/img/hemato.jpg" class="uk-transition-scale-up uk-transition-opaque" alt="" ></a>
+                    </div>
                 </li>
-                <li class="uk-padding-small ">
+                <li class="uk-padding-small" uk-lightbox>
                     <div class="specialities-related-img uk-inline-clip uk-transition-toggle" tabindex="0">
-                         <img src="https://i0.wp.com/greatlakespath.com/wp-content/uploads/2022/09/hemato_800px.jpg?fit=800%2C533&ssl=1" class="uk-transition-scale-up uk-transition-opaque" alt="">
-                    </div>           
+                        <a href="assets/img/Hematopath.jpg"><img src="assets/img/Hematopath.jpg" class="uk-transition-scale-up uk-transition-opaque" alt="" ></a>
+                    </div>
                 </li>
-                <li class="uk-padding-small ">
+                <li class="uk-padding-small" uk-lightbox>
                     <div class="specialities-related-img uk-inline-clip uk-transition-toggle" tabindex="0">
-                         <img src="https://i0.wp.com/greatlakespath.com/wp-content/uploads/2022/09/hemato_800px.jpg?fit=800%2C533&ssl=1" class="uk-transition-scale-up uk-transition-opaque" alt="">
-                    </div>           
+                        <a href="assets/img/haemo.jpg"><img src="assets/img/haemo.jpg" class="uk-transition-scale-up uk-transition-opaque" alt="" ></a>
+                    </div>
                 </li>
-                    
-                
-            </ul>
-            
+           </ul>
+           
     </div>
 </section>
 <?php include('assets/include/footer.php');?>
