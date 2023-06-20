@@ -103,7 +103,7 @@
 <section class="uk-section about-section ">
     <div class="uk-container js-slideshow-animation" tabindex="-1" uk-slideshow="min-height: 400; max-height: 700; ratio: 3:2; autoplay: true" >
     <div class="uk-text-center ">
-            <h2 class="green-secondary-font uk-margin-remove-bottom ">Our Services</h2>
+            <h2 class="green-secondary-font uk-margin-remove-bottom ">Our Services </h2>
             <h1 class="section-primary-font uk-margin-remove">Your Trusted Medical Laboratory</h1>
         </div>
         <ul class="uk-grid-collapse uk-child-width-expand@m " uk-grid uk-height-match=".services-block">

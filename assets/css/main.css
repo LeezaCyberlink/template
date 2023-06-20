@@ -412,20 +412,23 @@ footer a:hover{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
- }
- .specialities-img{
+}
+.specialities-img{
     width: 100%;
- }
- .specialities-img img{
+}
+.specialities-img img{
     height: 200px;
     width: 100%;
     object-fit: cover;
- }
-.related-specialities{
-    background-image:url(../img/bg.png);
-    background-attachment: fixed;
 }
-.specialty-list {
-    list-style: none;
-
+.specialities-img ,.specialities-related-img{
+    width: 100%;
+}
+.specialities-img img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+.specialities-related-img{
+    
 }
