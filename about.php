@@ -18,7 +18,7 @@
                     </li>
                     <li class="uk-padding-small">
                         <div class=" uk-flex uk-flex-column " >
-                            <h1 class="green-secondary-font uk-margin-remove-bottom ">About Hospital</h1>
+                            <h1 class="green-secondary-font uk-margin-remove-bottom ">About Hospital <img src="assets/img/icons/lifeline.png" height="40px;"  width="40px;" alt=""></h1>
                             <h1 class="section-primary-font uk-margin-remove ">Medi Quest Laboratory Clinic</h1>
                             <hr>
                             <p class="para-font uk-margin-remove-top">The concept of Mediquest Lab was envisioned a decade ago to fulfill the gap in molecular and other advanced diagnostic services for cancer patients in the country. The group of pathologists and hematologists urged the desperate need for flow cytometry, polymerized chain reaction (PCR), and cytogenetics services and decided to come up with a state-of-the-art diagnostic pathology center. <br> <br> Over the years, Mediquest Laboratory has scaled new heights and expanded its wing towards general pathology services, again to provide accurate, detailed, and dependable reports for our clients. <br><br>We take pride in being the first commercial laboratory to pioneer immunohistochemistry (IHC), flow cytometry, polymerized chain reaction (PCR), and cytogenetics tests in the country.  <br><br>At Mediquest Lab, we are determined to provide world-class, error-free pathology services in Nenal </p>
@@ -33,7 +33,7 @@
       <ul class="uk-grid-collapse uk-child-width-expand@m" uk-grid>
         <li class="uk-padding-small">
             <div class=" uk-flex uk-flex-column " >
-                <h1 class="green-secondary-font uk-margin-remove-bottom ">Our Mission</h1>
+                <h1 class="green-secondary-font uk-margin-remove-bottom ">Our Mission <img src="assets/img/icons/lifeline.png" height="40px;"  width="40px;" alt=""></h1>
                 <h1 class="section-primary-font uk-margin-remove ">Medi Quest Laboratory Clinic</h1>
                 <hr>
                 <div class=" uk-padding-small uk-padding-remove-bottom uk-flex">
@@ -83,20 +83,13 @@
     <div class="uk-container ">
         <div class="uk-text-center ">
             <h2 class="green-secondary-font uk-margin-remove-bottom ">Team Members</h2>
+            <img src="assets/img/icons/lifeline.png" height="40px;"  width="40px;" alt="">
             <h1 class="section-primary-font uk-margin-remove">Meet our Team Members</h1>
         </div>
         <ul class="uk-grid-collapse uk-child-width-1-4@s uk-child-width-2-4@m uk-child-width-1-1 uk-margin-top" uk-grid>
             <li class="uk-padding-small">
                 <div class="team-img uk-transition-toggle uk-inline-clip">
                     <img src="https://health.templines.info/wp-content/uploads/2017/09/doc1.jpg" alt="">
-                    <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default  uk-text-center team-overlay">
-                        <p class="uk-h4 uk-margin-remove team-icon">
-                            <span uk-icon="icon: facebook"></span>
-                            <span uk-icon="icon: twitter"></span>
-                            <span uk-icon="icon:  linkedin"></span>
-                            <span uk-icon="icon: instagram"></span>
-                        </p>
-                    </div>
                 </div>
                 <div class=" uk-margin-top ">
                     <h4 class="uk-margin-remove-bottom para-font" style="font-size:20px;">Dr.Sampurna Tuladhar</h4>
@@ -107,14 +100,6 @@
             <li class="uk-padding-small">
                 <div class="team-img uk-transition-toggle uk-inline-clip">
                     <img src="https://health.templines.info/wp-content/uploads/2017/09/doc4.jpg" alt="">
-                    <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default  uk-text-center team-overlay">
-                        <p class="uk-h4 uk-margin-remove team-icon">
-                            <span uk-icon="icon: facebook"></span>
-                            <span uk-icon="icon: twitter"></span>
-                            <span uk-icon="icon:  linkedin"></span>
-                            <span uk-icon="icon: instagram"></span>
-                        </p>
-                    </div>
                 </div>
                 <div class=" uk-margin-top ">
                     <h4 class="uk-margin-remove-bottom para-font" style="font-size:20px;">Dr.Sampurna Tuladhar</h4>
@@ -125,14 +110,6 @@
             <li class="uk-padding-small">
                 <div class="team-img uk-transition-toggle uk-inline-clip">
                     <img src="https://health.templines.info/wp-content/uploads/2017/09/doc2.jpg" alt="">
-                    <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default  uk-text-center team-overlay">
-                        <p class="uk-h4 uk-margin-remove team-icon">
-                            <span uk-icon="icon: facebook"></span>
-                            <span uk-icon="icon: twitter"></span>
-                            <span uk-icon="icon:  linkedin"></span>
-                            <span uk-icon="icon: instagram"></span>
-                        </p>
-                    </div>
                 </div>
                 <div class=" uk-margin-top ">
                     <h4 class="uk-margin-remove-bottom para-font" style="font-size:20px;">Dr.Sampurna Tuladhar</h4>
@@ -143,14 +120,6 @@
             <li class="uk-padding-small">
                 <div class="team-img uk-transition-toggle uk-inline-clip">
                     <img src="https://health.templines.info/wp-content/uploads/2017/09/doc3.jpg" alt="">
-                    <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default  uk-text-center team-overlay">
-                        <p class="uk-h4 uk-margin-remove team-icon">
-                            <span uk-icon="icon: facebook"></span>
-                            <span uk-icon="icon: twitter"></span>
-                            <span uk-icon="icon:  linkedin"></span>
-                            <span uk-icon="icon: instagram"></span>
-                        </p>
-                    </div>
                 </div>
                 <div class=" uk-margin-top ">
                     <h4 class="uk-margin-remove-bottom para-font" style="font-size:20px;">Dr.Sampurna Tuladhar</h4>

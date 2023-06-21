@@ -9,7 +9,7 @@
 </section>
 <section class="uk-section" >
     <div class="uk-container">
-        <ul   >
+        <ul class="uk-grid-collapse  uk-child-width-1-1 uk-child-width-1-2@m  uk-margin-small-top" uk-grid>
            
             <li class="uk-padding-small" >
                 <div style=" padding:40px; background:#f7f7f7;">

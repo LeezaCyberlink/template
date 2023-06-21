@@ -62,7 +62,7 @@
         </li>
         <li style="padding:25px;" class="uk-animation-fade uk-padding-small">
             <div class=" uk-flex uk-flex-column "  uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false " >
-                <h1 class="green-secondary-font uk-margin-remove-bottom ">About Hospital</h1>
+                <h1 class="green-secondary-font uk-margin-remove-bottom ">About Hospital <img src="assets/img/icons/lifeline.png" height="40px;"  width="40px;" alt=""></h1>
                 <h1 class="section-primary-font uk-margin-remove ">Medi Quest Laboratory Clinic</h1>
                 <hr>
                 <p class="para-font uk-margin-remove-top">The concept of Mediquest Lab was envisioned a decade ago to fulfill the gap in molecular and other advanced diagnostic services for cancer patients in the country. The group of pathologists and hematologists urged the desperate need  for flow cytometry, polymerized chain reaction (PCR), and cytogenetics services and decided to come up with a state-of-the-art diagnostic pathology center. <br> <br> Over the years, Mediquest Laboratory has scaled new heights and expanded its wing towards general pathology services, again to provide accurate, detailed, and dependable reports for our clients. </p>
@@ -103,10 +103,10 @@
 <section class="uk-section about-section ">
     <div class="uk-container js-slideshow-animation" tabindex="-1" uk-slideshow="min-height: 400; max-height: 700; ratio: 3:2; autoplay: true" >
     <div class="uk-text-center ">
-            <h2 class="green-secondary-font uk-margin-remove-bottom ">Our Services </h2>
+            <h2 class="green-secondary-font uk-margin-remove-bottom ">Our Services </h2><img src="assets/img/icons/lifeline.png" height="40px;"  width="40px;" alt="">
             <h1 class="section-primary-font uk-margin-remove">Your Trusted Medical Laboratory</h1>
         </div>
-        <ul class="uk-grid-collapse uk-child-width-expand@m " uk-grid uk-height-match=".services-block">
+        <ul class=" uk-child-width-expand@m uk-padding-small" uk-grid uk-height-match=".services-block">
             <li class="uk-text-center uk-padding uk-animation-fade ">
                 <div class="services-block"  uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false ">
                 <img src="assets/img/icons/fast-delivery.png" alt="">
@@ -115,13 +115,13 @@
                 </div>
             </li>
             <li class="uk-text-center uk-padding"  uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false ">
-                <div  class="services-block">
+                <div  class="services-block uk-animation-fade">
                 <img src="assets/img/icons/hematology.png" alt="">
                 <p class="para-font uk-text-center  uk-text-bold">Hematology clinic </p>
                 <p class="para-font uk-text-center uk-margin-remove">By Senior Consultant Hematologist dedicated to all types of Blood Disease</p>
                 </div>
             </li>
-            <li class="uk-text-center uk-padding">
+            <li class="uk-text-center uk-padding uk-animation-fade">
                 <div  class="services-block"  uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false ">
                 <img src="assets/img/icons/gynecology.png" alt="">
                 <p class="para-font uk-text-center  uk-text-bold">Gynae-oncology clinic</p>
@@ -136,7 +136,7 @@
 <section class="uk-section">
     <div class="uk-container js-slideshow-animation" tabindex="-1" uk-slideshow="min-height: 400; max-height: 700; ratio: 3:2; autoplay: true" >
         <div class="uk-text-center ">
-            <h2 class="green-secondary-font uk-margin-remove-bottom ">Our Services</h2>
+            <h2 class="green-secondary-font uk-margin-remove-bottom ">Our Services</h2><img src="assets/img/icons/lifeline.png" height="40px;"  width="40px;" alt="">
             <h1 class="section-primary-font uk-margin-remove">Delivering Excellence in Medical Diagnostics</h1>
         </div>
         <div class="uk-position-relative uk-visible-toggle uk-slider uk-slider-container "  uk-slider="sets: true">
@@ -145,7 +145,7 @@
                 <li class="uk-padding-small uk-animation-fade ">
                         <div uk-scrollspy="cls: uk-animation-fade;  delay: 300; repeat: false ">
                             <div class="specialities-img uk-inline-clip uk-transition-toggle">
-                                <img src="assets/img/hemat.jpg " class="uk-transition-scale-up uk-transition-opaque" alt="">
+                                <img src="assets/img/hemato.jpg " class="uk-transition-scale-up uk-transition-opaque" alt="">
                             </div>
                             <div class="specialities-text uk-flex uk-padding-small">
                                 <div>
@@ -233,26 +233,46 @@
 <section class="uk-section team-section uk-padding-remove-top" >
     <div class="uk-container ">
         <div class="uk-text-center ">
-            <h2 class="green-secondary-font uk-margin-remove-bottom ">Team Members</h2>
+            <h2 class="green-secondary-font uk-margin-remove-bottom ">Team Members</h2><img src="assets/img/icons/lifeline.png" height="40px;"  width="40px;" alt="">
             <h1 class="section-primary-font uk-margin-remove">Meet our Pathalogists</h1>
         </div>
         <ul class="uk-grid-collapse uk-child-width-1-4@s uk-child-width-2-4@m uk-child-width-1-1 uk-margin-top" uk-grid>
             <li class="uk-padding-small">
                 <div class="team-img uk-transition-toggle uk-inline-clip">
                     <img src="https://health.templines.info/wp-content/uploads/2017/09/doc1.jpg" alt="">
-                    <!-- <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default  uk-text-center team-overlay">
-                        <p class="uk-h4 uk-margin-remove team-icon">
-                            <span uk-icon="icon: facebook"></span>
-                            <span uk-icon="icon: twitter"></span>
-                            <span uk-icon="icon:  linkedin"></span>
-                            <span uk-icon="icon: instagram"></span>
-                        </p>
-                    </div> -->
                 </div>
                 <div class=" uk-margin-top ">
                     <h4 class="uk-margin-remove-bottom para-font" style="font-size:20px;">Dr.Sampurna Tuladhar</h4>
                     <p class="uk-margin-remove para-font ">Pathologists</p>
-                    <button class="learn-btn uk-margin-small-top"><a href="inner-team.php">Learn More <span uk-icon="icon: triangle-right"></span></a> </button>
+                    <button class="learn-btn uk-margin-small-top" uk-toggle="target: #modal-example"><a href="inner-team.php">Learn More <span uk-icon="icon: triangle-right"></span></a> </button>
+                    <!-- This is the modal -->
+                    <div id="modal-example" uk-modal>
+                        <div class="uk-modal-dialog uk-modal-body" style=" width:150vw !important; background-image: url(assets/img/background-texture.png); background-color:#F6F6FA;">
+                           <div class="uk-grid-collapse  uk-margin uk-flex" >
+                                <div class="uk-card-media-left uk-cover-container">
+                                    <img src="https://health.templines.info/wp-content/uploads/2017/09/doc1.jpg" alt="" uk-cover>
+                                    <canvas width="600" height="400"></canvas>
+                                </div>
+                                <div>
+                                    <div class="uk-card-body">
+                                        <h3 class=" section-primary-font ">Dr.Sampurna Tuladhar</h3>
+                                        <p class="uk-margin-remove team-font para-font">NMC No: 4352 </p>
+                                        <p class="uk-margin-remove team-font para-font">Associate Professor, NAMS.</p>
+                                        <ul class="teams-list para-font">
+                                            <li>Fellowship in Laboratory Hematology, CMC, Vellore.</li>
+                                            <li>Fellowship in Hemophilia and Bleeding disorder, Melbourne, Australia.</li>
+                                            <li>Fellowship in Global BMT, University of Illinois, Chicago, USA.</li>
+                                            <li>More than 10 years of experience in diagnosing blood disorders and hematological malignancies.</li>
+                                            <li>An active member of the Nepal Hemophilia society.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="uk-text-right">
+                                <a href="about.php" class="red-button uk-modal-close">Close</a>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </li>
             <li class="uk-padding-small">
@@ -414,7 +434,7 @@
 <section class="uk-section  uk-padding-remove-top">
     <div class="uk-container js-slideshow-animation" tabindex="-1" uk-slideshow="min-height: 400; max-height: 700; ratio: 3:2; autoplay: true">
         <div class="uk-text-center">
-            <h1 class="green-secondary-font uk-margin-remove-bottom">Testimonials</h1>
+            <h1 class="green-secondary-font uk-margin-remove-bottom">Testimonials</h1> <img src="assets/img/icons/lifeline.png" height="40px;"  width="40px;" alt=""> 
             <h1 class="section-primary-font uk-margin-remove">What our Clients say</h1>
         </div>
         <div class="uk-text-center uk-padding  uk-creative-bg-white uk-margin-large-top client-section" style=" box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;">
@@ -526,10 +546,7 @@
                 </div>
             </div> 
         </li>
-       
-        
       </ul>
-      
       <div class="uk-text-center uk-margin-large-top">
       <a href="about.php" class="red-button ">View All News</a>
       </div>

@@ -63,9 +63,9 @@
 </footer>
 <div id="nav-offcanvas" uk-offcanvas="mode: none; overlay: true" >
   <div class="uk-offcanvas-bar uk-padding-remove">
-    <header class="uk-card-header uk-flex ">
+    <header class="uk-card-header uk-flex uk-padding-small uk-padding-remove-bottom" >
       <div class="uk-flex ">
-      <img src="assets/img/logo.jpg" alt="" style=" width: 74px; height: 70px;">
+      <img src="assets/img/dlogo.jpg" alt="" style="width:100%;  height: 80px;">
       </div>
     </header>
     <div style="height:1px; background:#80808061;"></div>

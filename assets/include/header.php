@@ -13,6 +13,7 @@
    <script src="assets/js/uikit.min.js"></script>
       <script src="assets/js/uikit-icons.min.js"></script>
       <script src="assets/js/jquery-3.4.1.min.js"></script>
+      <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=645a0a8a1b837f0019d420c1&product=inline-share-buttons' async='async'></script>
 </head>
 
 <body>
@@ -36,36 +37,37 @@
                                 </div>
                             </li>
                         </ul>
-                    </div>
-                    <nav class="uk-navbar-container   uk-sticky uk-sticky-fixed"  uk-sticky="start: 100; animation: uk-animation-slide-top; sel-target: uk-navbar-container ; cls-active: uk-navbar-sticky scroll-nav; cls-inactive: uk-navbar-transparent ;">
+                    </div><div class="uk-position-relative">
+
+                   
+                    <nav class="uk-navbar-container   uk-sticky uk-sticky-fixed stroke shadow-lg"  uk-sticky="start: 100; animation: uk-animation-slide-top; sel-target: uk-navbar-container ; cls-active: uk-navbar-sticky scroll-nav; cls-inactive: uk-navbar-transparent ;">
                         <div class="uk-container">
-                            <div uk-navbar>
+                            <div uk-navbar="dropbar: true; dropbar-anchor: !.uk-navbar-container; target-y: !.uk-navbar-container">
                                 <div class="uk-navbar-left  ">
                                     <button class="uk-navbar-toggle uk-hidden@m" uk-toggle="target: #nav-offcanvas" uk-navbar-toggle-icon></button>
                                     <a class="uk-navbar-item uk-logo uk-margin-large-right" href="index.php">
-                                    <img src="assets/img/logo.jpg" alt="" style=" width: 74px; height: 70px;">
+                                    <img src="assets/img/dlogo.png" alt="" style="  height: 80px;">
                                     </a>
                                 </div>
 
                                 <div class="uk-navbar-right uk-visible@m  ">
                                     <ul class="uk-navbar-nav">
-                                        <li class="uk-active"><a href="index.php" class="nav-font">Home</a></li>
+                                        <li class="uk-active"><a href="index.php" uk-icon="icon: home"></a></li>
                                         
                                         <li>
                                             <a href="about.php" class="nav-font">About Us</a>
                                         </li>
                                         <li>
                                             <a href="speciality.php" class="nav-font">Specialities</a>
-                                            <div class="uk-navbar-dropdown uk-navbar-dropdown-width-3" uk-drop="delay-hide: 10; uk-animation-slide-top-small; duration: 300; boundary: header; boundary-align: true; pos: bottom-justify stretch: x; flip: false">
+                                            <div class="uk-navbar-dropdown uk-navbar-dropdown-width-3" uk-drop="delay-hide: 10; uk-animation-slide-top-small; duration: 300; boundary: header; boundary-align: true; pos: bottom-justify stretch: x; flip: false ">
                                                 <div class="uk-drop-grid uk-child-width-1-3" uk-grid>
-                                                    <div>
-                                                        <ul class="uk-nav uk-navbar-dropdown-nav  " >
+                                                    <div >
+                                                        <ul class="uk-nav uk-navbar-dropdown-nav" >
                                                       
                                                             <li ><a href="inner-specilities.php" class="nav-font" ><span uk-icon="arrow-right"></span>Gynae Pathology</a> </li>
                                                             <li><a href="inner-specilities.php" class="nav-font"><span uk-icon="arrow-right"></span>Infectious Disease</a> </li>
                                                             <li><a href="inner-specilities.php" class="nav-font"><span uk-icon="arrow-right"></span>Biochemistry</a></li>  
                                                         </ul>
-                                                      
                                                     </div>
                                                     
                                                     <div class="uk-padding-remove">
@@ -87,6 +89,7 @@
                                                 </div>
                                             </div>
                                         </li>
+                                        
                                         <!-- <li>
                                             <a href="#" class="nav-font">Services</a>
                                         </li> -->
@@ -105,5 +108,7 @@
                             </div>
                         </div>
                     </nav>
+                    </div>
                 </div>
         </header>
+           
